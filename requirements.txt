@@ -1,0 +1,9 @@
+streamlit
+random
+pandas
+os
+bs4
+requests
+webbrowser
+skimage.io
+matplotlib.pyplot
