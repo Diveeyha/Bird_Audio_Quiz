@@ -77,6 +77,6 @@ with col3:
         st.session_state.question_number = 0
         st.session_state.player_score = 0
         bird_data.clear()
-        st.experimental_rerun()
+        # st.experimental_rerun()
 
 # st.session_state
