@@ -1,9 +1,5 @@
 streamlit
-random
 pandas
 os
-bs4
+BeautifulSoup
 requests
-webbrowser
-skimage.io
-matplotlib.pyplot
