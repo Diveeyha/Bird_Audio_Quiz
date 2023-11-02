@@ -60,7 +60,7 @@ with tab2:
         # st.write(birds.iloc[ind, 0])
         st.audio(get_audio(ind, birds, answer))
 
-        guess = selectbox("Select or Type Answer:", options, key="my_selectbox")
+        guess = st.selectbox("Select or Type Answer:", options, key="my_selectbox")
 
         if st.form_submit_button("Submit", on_click=reset):
             update_score(guess, answer)
