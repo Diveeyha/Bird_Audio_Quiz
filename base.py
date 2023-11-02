@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_extras.no_default_selectbox import selectbox
 import random
 from birds.database import load_csv, get_birds_by_family
 from birds.audio import find_bird_urls
@@ -58,7 +59,7 @@ with tab2:
         # st.write(birds.iloc[ind, 0])
         st.audio(get_audio(ind, birds, answer))
 
-        guess = st.selectbox("Select:", birds['name'].sort_values(), label_visibility="collapsed", key="my_selectbox")
+        guess = selectbox("Select or Type Answer:", birds['name'].sort_values(), key="my_selectbox")
 
         if st.form_submit_button("Submit", on_click=reset):
             update_score(guess, answer)
