@@ -55,11 +55,12 @@ with tab2:
     with st.form("Audio Quiz"):
         birds = bird_data(filter())
         ind = st.session_state.question_number
+        options = birds['name'].sort_values()
         answer = birds.iloc[ind, 0]
         # st.write(birds.iloc[ind, 0])
         st.audio(get_audio(ind, birds, answer))
 
-        guess = selectbox("Select or Type Answer:", birds['name'].sort_values(), key="my_selectbox")
+        guess = selectbox("Select or Type Answer:", options, key="my_selectbox")
 
         if st.form_submit_button("Submit", on_click=reset):
             update_score(guess, answer)
