@@ -35,7 +35,10 @@ def reset():
 
 
 def filter():
-    if st.session_state.txt_filter == "All":
+    if st.session_state.txt_filter == "Test":
+        bird_filter = get_birds_by_family('gaviidae')
+        return bird_filter
+    elif st.session_state.txt_filter == "All":
         bird_filter = load_csv()
         return bird_filter
     elif st.session_state.txt_filter == "Waterfowl":
@@ -48,7 +51,7 @@ initialize_session_state()
 
 tab1, tab2 = st.tabs(["Bird List", "Audio"])
 with tab1:
-    st.radio("Filter by", ["All", "Waterfowl"], horizontal=True, key="txt_filter")
+    st.radio("Filter by", ["Test", "All", "Waterfowl"], horizontal=True, key="txt_filter")
     st.dataframe(filter(), hide_index=True)
 
 with tab2:
