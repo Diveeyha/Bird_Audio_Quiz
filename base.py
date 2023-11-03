@@ -67,7 +67,7 @@ with tab2:
 
         if st.form_submit_button("Submit", on_click=reset):
             update_score(guess, answer)
-            st.write(f"The correct answer is {birds.iloc[st.session_state.question_number, 0]}.")
+            st.write(f"The correct answer is {birds.iloc[ind, 0]}.")
             st.write(f"Score: {st.session_state.player_score} correct out of {st.session_state.question_number}.")
             st.session_state.question_number += 1
 
