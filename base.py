@@ -20,7 +20,7 @@ def update_score(player_choice, correct_answer):
 @st.cache_data
 def bird_data(bird_filter):
     birds = bird_filter.sample(frac=1)
-    # st.data_editor(birds)
+    st.data_editor(birds)
     return birds
 
 
@@ -60,7 +60,7 @@ with tab2:
         ind = st.session_state.question_number
         options = birds['name'].sort_values()
         answer = birds.iloc[ind, 0]
-        # st.write(birds.iloc[ind, 0])
+        st.write(birds.iloc[ind, 0])
         st.audio(get_audio(ind, birds, answer))
 
         guess = st.selectbox("Select or Type Answer:", options, key="my_selectbox")
@@ -68,22 +68,8 @@ with tab2:
         if st.form_submit_button("Submit", on_click=reset):
             update_score(guess, answer)
             st.session_state.question_number += 1
-            if st.session_state.question_number < len(birds):
-                st.write(f"Score: {st.session_state.player_score} correct out of {st.session_state.question_number}.")
-            elif st.session_state.question_number == len(birds):
-                st.success("Quiz Finished and has Automatically Reset!")
-                st.write(f"Score: {st.session_state.player_score} correct out of {st.session_state.question_number}.")
-                st.session_state.question_number = 0
-                st.session_state.player_score = 0
-                bird_data.clear()
-col1, col2, col3 = st.columns([1, 1, 1], gap="small")
-with col1:
-    st.empty()
-with col2:
-    if st.button("Finished", key="finished", type="primary"):
-        st.success("Quiz Finished!")
-        st.write(f"Your Score: {st.session_state.player_score} correct out of {st.session_state.question_number}.")
 
+col1, col2, col3, col4, col5 = st.columns(5)
 with col3:
     if st.button("Reset", key="reset", on_click=reset, type="primary"):
         st.session_state.question_number = 0
