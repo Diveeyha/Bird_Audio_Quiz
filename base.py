@@ -68,7 +68,14 @@ with tab2:
         if st.form_submit_button("Submit", on_click=reset):
             update_score(guess, answer)
             st.session_state.question_number += 1
-
+            if st.session_state.question_number < len(birds):
+                st.write(f"Score: {st.session_state.player_score} correct out of {st.session_state.question_number}.")
+            elif st.session_state.question_number == len(birds):
+                st.success("Quiz Finished and has Automatically Reset!")
+                st.write(f"Score: {st.session_state.player_score} correct out of {st.session_state.question_number}.")
+                st.session_state.question_number = 0
+                st.session_state.player_score = 0
+                bird_data.clear()
 col1, col2, col3 = st.columns([1, 1, 1], gap="small")
 with col1:
     st.empty()
