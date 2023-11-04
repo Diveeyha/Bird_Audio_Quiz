@@ -1,5 +1,3 @@
 streamlit
 pandas
 beautifulsoup4
-selectbox
-streamlit_extras
