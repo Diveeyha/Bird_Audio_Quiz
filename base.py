@@ -1,5 +1,4 @@
 import streamlit as st
-# from streamlit_extras.no_default_selectbox import selectbox
 import random
 from birds.database import load_csv, get_birds_by_family
 from birds.audio import find_bird_urls
@@ -10,11 +9,15 @@ def initialize_session_state():
         st.session_state.question_number = 0
     if 'player_score' not in st.session_state:
         st.session_state.player_score = 0
+    if 'question_counter' not in st.session_state:
+        st.session_state.question_counter = 0
+    if 'previous_answer' not in st.session_state:
+        st.session_state.previous_answer = ""
 
 
-def update_score(player_choice, correct_answer):
-    if player_choice == correct_answer:
-        st.session_state.player_score += 1
+def reset_session_state():
+    st.session_state.question_number = 0
+    bird_data.clear()
 
 
 @st.cache_data
@@ -30,13 +33,9 @@ def get_audio(question_number, birds, answer):
     return url
 
 
-def reset():
-    st.session_state.my_selectbox = birds['name'].sort_values(ignore_index=True)[0]
-
-
-def filter():
+def data_filter():
     if st.session_state.txt_filter == "Test":
-        bird_filter = get_birds_by_family('gaviidae')
+        bird_filter = get_birds_by_family('sulidae')
         return bird_filter
     elif st.session_state.txt_filter == "All":
         bird_filter = load_csv()
@@ -46,37 +45,62 @@ def filter():
         return bird_filter
 
 
+def calculate_score(player_choice, correct_answer):
+    if player_choice == correct_answer:
+        st.session_state.player_score += 1
+    st.session_state.question_counter += 1
+
+
 st.title("North American Bird Quiz")
 initialize_session_state()
 
 tab1, tab2 = st.tabs(["Bird List", "Audio"])
 with tab1:
     st.radio("Filter by", ["Test", "All", "Waterfowl"], horizontal=True, key="txt_filter")
-    st.dataframe(filter(), hide_index=True)
+    st.dataframe(data_filter(), hide_index=True)
 
 with tab2:
-    with st.form("Audio Quiz"):
-        birds = bird_data(filter())
-        ind = st.session_state.question_number
-        options = birds['name'].sort_values()
-        answer = birds.iloc[ind, 0]
-        st.write(birds.iloc[ind, 0])
-        st.audio(get_audio(ind, birds, answer))
+    birds = bird_data(data_filter())
+    ind = st.session_state.question_number
+    options = birds['name'].sort_values()
+    answer = birds.iloc[ind, 0]
+    st.audio(get_audio(ind, birds, answer))
+    st.write(ind, answer)
 
-        guess = st.selectbox("Select or Type Answer:", options, key="my_selectbox")
+    guess = st.selectbox("Answer:", options, key="my_selectbox")
 
-        if st.form_submit_button("Submit", on_click=reset):
-            update_score(guess, answer)
-            st.write(f"The correct answer is {birds.iloc[ind, 0]}.")
-            st.write(f"Score: {st.session_state.player_score} correct out of {st.session_state.question_number}.")
-            st.session_state.question_number += 1
+    col1, col2= st.columns(2)
+    with col1:
+        if st.button("Submit", key="submit"):
+            calculate_score(guess, answer)
 
-col1, col2, col3, col4, col5 = st.columns(5)
-with col3:
-    if st.button("Reset", key="reset", on_click=reset, type="primary"):
-        st.session_state.question_number = 0
+            if st.session_state.question_number == (len(birds)-1):
+                reset_session_state()
+                st.session_state.previous_answer = answer
+                st.experimental_rerun()
+
+            elif st.session_state.question_number < len(birds):
+                previous_answer = answer
+                idx = st.session_state.question_number
+                idx = (idx + 1) % len(birds)
+                st.session_state.question_number = idx
+                st.session_state.previous_answer = answer
+                st.experimental_rerun()
+
+
+
+    if col2.button("Reset", key="reset", type="primary"):
+        reset_session_state()
         st.session_state.player_score = 0
-        bird_data.clear()
-        # st.experimental_rerun()
+        st.session_state.question_counter = 0
+        st.session_state.previous_answer = ""
 
-# st.session_state
+    col1, col2 = st.columns(2)
+    with col1:
+        if st.session_state.question_counter > 0:
+            st.write(f"The correct answer is {st.session_state.previous_answer}.")
+    with col2:
+        if st.session_state.question_counter > 0:
+            st.write(f"Score: {st.session_state.player_score} correct out of {st.session_state.question_counter}.")
+
+st.session_state
