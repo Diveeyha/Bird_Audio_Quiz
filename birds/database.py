@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import os
-# from .html import *
 
 
 def get_csv_name():
