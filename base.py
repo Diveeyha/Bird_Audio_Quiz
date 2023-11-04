@@ -69,18 +69,18 @@ with tab2:
 
     guess = st.selectbox("Answer:", options, key="my_selectbox")
 
-    col1, col2= st.columns(2)
+    col1, col2 = st.columns(2)
     with col1:
         if st.button("Submit", key="submit"):
             calculate_score(guess, answer)
 
             if st.session_state.question_number == (len(birds)-1):
-                reset_session_state()
                 st.session_state.previous_answer = answer
+                st.session_state.question_number = 0
+                bird_data.clear()
                 st.experimental_rerun()
 
             elif st.session_state.question_number < len(birds):
-                previous_answer = answer
                 idx = st.session_state.question_number
                 idx = (idx + 1) % len(birds)
                 st.session_state.question_number = idx
@@ -90,10 +90,12 @@ with tab2:
 
 
     if col2.button("Reset", key="reset", type="primary"):
-        reset_session_state()
         st.session_state.player_score = 0
         st.session_state.question_counter = 0
         st.session_state.previous_answer = ""
+        st.session_state.question_number = 0
+        bird_data.clear()
+        st.experimental_rerun()
 
     col1, col2 = st.columns(2)
     with col1:
