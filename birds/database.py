@@ -22,15 +22,15 @@ def save_csv(dataframe, index=True):
 @st.cache_data
 def get_birds_by_group(*groups):
     csv = load_csv()
-    df = csv['name'][csv['family'].isin(groups)]
-    return df.sort_values()
+    df = csv[csv['group'].isin(groups)]
+    return df.sort_values(by=['name'])
 
 
 @st.cache_data
 def get_birds_by_order(*orders):
     csv = load_csv()
-    df = csv['name'][csv['family'].isin(orders)]
-    return df.sort_values()
+    df = csv[csv['order'].isin(orders)]
+    return df.sort_values(by=['name'])
 
 
 @st.cache_data
@@ -43,5 +43,5 @@ def get_birds_by_family(*families):
 @st.cache_data
 def get_birds_by_taxonomy(*species):
     csv = load_csv()
-    df = csv['name'][csv['family'].isin(species)]
-    return df.sort_values()
+    df = csv[csv['species'].isin(species)]
+    return df.sort_values(by=['name'])
