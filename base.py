@@ -13,6 +13,8 @@ def initialize_session_state():
         st.session_state.question_counter = 0
     if 'previous_answer' not in st.session_state:
         st.session_state.previous_answer = ""
+    if 'my_selectbox.index' not in st.session_state:
+        st.session_state.my_selectbox.index = None
 
 
 def reset_session_state():
@@ -68,7 +70,7 @@ with tab2:
     st.audio(get_audio(ind, birds, answer))
     # st.write(ind, answer)
 
-    guess = st.selectbox("Answer:", options, key="my_selectbox",index=None)
+    guess = st.selectbox("Answer:", options, key="my_selectbox", index=None)
 
     col1, col2 = st.columns(2)
     with col1:
