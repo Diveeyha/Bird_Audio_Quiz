@@ -108,4 +108,4 @@ with tab2:
         if st.session_state.question_counter > 0:
             st.write(f"Score: {st.session_state.player_score} correct out of {st.session_state.question_counter}.")
 
-# st.session_state
+st.session_state
