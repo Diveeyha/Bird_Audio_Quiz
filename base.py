@@ -70,7 +70,7 @@ with tab2:
     st.audio(get_audio(ind, birds, answer))
     # st.write(ind, answer)
 
-    guess = st.selectbox("Answer:", options, key="my_selectbox")
+    guess = st.selectbox("Answer:", options, key="my_selectbox", index=st.session_state.index)
 
     col1, col2 = st.columns(2)
     with col1:
