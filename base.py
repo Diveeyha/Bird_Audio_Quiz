@@ -14,7 +14,7 @@ def initialize_session_state():
     if 'previous_answer' not in st.session_state:
         st.session_state.previous_answer = ""
     if 'index' not in st.session_state:
-        st.session_state.index = None
+        st.session_state.index = 0
 
 
 def reset_session_state():
