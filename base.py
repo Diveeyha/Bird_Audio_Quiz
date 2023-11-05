@@ -46,6 +46,7 @@ def data_filter():
 
 
 def calculate_score(player_choice, correct_answer):
+    st.session_state.my_selectbox.index = None
     if player_choice == correct_answer:
         st.session_state.player_score += 1
     st.session_state.question_counter += 1
