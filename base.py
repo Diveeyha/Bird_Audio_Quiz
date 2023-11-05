@@ -23,7 +23,7 @@ def reset_session_state():
 @st.cache_data
 def bird_data(bird_filter):
     birds = bird_filter.sample(frac=1)
-    st.data_editor(birds)
+    #st.data_editor(birds)
     return birds
 
 
@@ -65,7 +65,7 @@ with tab2:
     options = birds['name'].sort_values()
     answer = birds.iloc[ind, 0]
     st.audio(get_audio(ind, birds, answer))
-    st.write(ind, answer)
+    # st.write(ind, answer)
 
     guess = st.selectbox("Answer:", options, key="my_selectbox")
 
