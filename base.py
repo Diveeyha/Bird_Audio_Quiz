@@ -14,7 +14,7 @@ def initialize_session_state():
     if 'previous_answer' not in st.session_state:
         st.session_state.previous_answer = ""
     if 'index' not in st.session_state:
-        st.session_state.index = 0
+        st.session_state.index = None
 
 
 def reset_session_state():
@@ -97,6 +97,7 @@ with tab2:
         st.session_state.question_counter = 0
         st.session_state.previous_answer = ""
         st.session_state.question_number = 0
+        st.session_state.index = None
         bird_data.clear()
         st.experimental_rerun()
 
