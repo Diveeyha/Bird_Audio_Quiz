@@ -13,6 +13,7 @@ def initialize_session_state():
         st.session_state.question_counter = 0
     if 'previous_answer' not in st.session_state:
         st.session_state.previous_answer = ""
+    # st.session_state.my_select = None
 
 
 def reset_session_state():
@@ -50,7 +51,6 @@ def calculate_score(player_choice, correct_answer):
     if player_choice == correct_answer:
         st.session_state.player_score += 1
     st.session_state.question_counter += 1
-    st.session_state.my_select = None
 
 
 st.title("North American Bird Quiz")
