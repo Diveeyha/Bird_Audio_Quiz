@@ -16,7 +16,7 @@ def initialize_session_state():
 
 
 def reset_session_state():
-    st.session_state.my_selectbox.clear()
+    del st.session_state[my_selectbox]
     st.session_state.question_number = 0
     bird_data.clear()
 
