@@ -81,7 +81,7 @@ with tab2:
 
             if st.session_state.question_number == (len(birds)-1):
                 st.session_state.previous_answer = answer
-                reset_session_state())
+                reset_session_state()
 
             elif st.session_state.question_number < len(birds):
                 idx = st.session_state.question_number
