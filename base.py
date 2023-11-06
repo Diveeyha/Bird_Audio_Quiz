@@ -87,7 +87,6 @@ with tab2:
                 idx = (idx + 1) % len(birds)
                 st.session_state.question_number = idx
                 st.session_state.previous_answer = answer
-                st.session_state.my_select = None
                 st.experimental_rerun()
 
 
@@ -97,7 +96,6 @@ with tab2:
         st.session_state.previous_answer = ""
         st.session_state.question_number = 0
         bird_data.clear()
-        st.session_state.my_select = None
         st.experimental_rerun()
 
     col1, col2 = st.columns(2)
