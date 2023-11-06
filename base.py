@@ -13,7 +13,7 @@ def initialize_session_state():
         st.session_state.question_counter = 0
     if 'previous_answer' not in st.session_state:
         st.session_state.previous_answer = ""
-    if 'index' not in st.session_state:
+    if 'my_selectbox.index' not in st.session_state:
         st.session_state.my_selectbox.index = None
 
 
