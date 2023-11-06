@@ -16,6 +16,7 @@ def initialize_session_state():
 
 
 def reset_session_state():
+    st.session_state.my_selectbox.clear()
     st.session_state.question_number = 0
     bird_data.clear()
 
@@ -90,7 +91,7 @@ with tab2:
 
 
 
-    if col2.button("Reset", key="reset", type="primary"):
+    if col2.button("Reset", key="reset", type="primary", on_click=reset_session_state):
         st.session_state.player_score = 0
         st.session_state.question_counter = 0
         st.session_state.previous_answer = ""
