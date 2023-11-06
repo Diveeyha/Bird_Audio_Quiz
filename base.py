@@ -14,7 +14,7 @@ def initialize_session_state():
     if 'previous_answer' not in st.session_state:
         st.session_state.previous_answer = ""
     if st.session_state.my_select != None:
-        st.session_state.my_select = None
+        st.session_state.my_select = ""
 
 
 def reset_session_state():
