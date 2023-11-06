@@ -13,8 +13,8 @@ def initialize_session_state():
         st.session_state.question_counter = 0
     if 'previous_answer' not in st.session_state:
         st.session_state.previous_answer = ""
-    if 'my_selectbox' not in st.session_state:
-        st.session_state.my_selectbox = ''
+    if 'index' not in st.session_state:
+        st.session_state.index = None
 
 
 def reset_session_state():
@@ -48,7 +48,6 @@ def data_filter():
 
 
 def calculate_score(player_choice, correct_answer):
-    st.session_state.my_selectbox = ''
     if player_choice == correct_answer:
         st.session_state.player_score += 1
     st.session_state.question_counter += 1
@@ -70,7 +69,7 @@ with tab2:
     st.audio(get_audio(ind, birds, answer))
     # st.write(ind, answer)
 
-    guess = st.selectbox("Answer:", options, key="my_selectbox", index=None)
+    guess = st.selectbox("Answer:", options, key="my_selectbox")
 
     col1, col2 = st.columns(2)
     with col1:
@@ -97,7 +96,6 @@ with tab2:
         st.session_state.question_counter = 0
         st.session_state.previous_answer = ""
         st.session_state.question_number = 0
-        st.session_state.my_selectbox = ''
         bird_data.clear()
         st.experimental_rerun()
 
