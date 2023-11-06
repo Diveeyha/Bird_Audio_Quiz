@@ -54,6 +54,7 @@ def calculate_score(player_choice, correct_answer):
 
 st.title("North American Bird Quiz")
 initialize_session_state()
+st.session_state.my_select = None
 
 tab1, tab2 = st.tabs(["Bird List", "Audio"])
 with tab1:
@@ -79,7 +80,6 @@ with tab2:
                 st.session_state.previous_answer = answer
                 st.session_state.question_number = 0
                 bird_data.clear()
-                st.session_state.my_select = None
                 st.experimental_rerun()
 
             elif st.session_state.question_number < len(birds):
