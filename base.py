@@ -13,8 +13,8 @@ def initialize_session_state():
         st.session_state.question_counter = 0
     if 'previous_answer' not in st.session_state:
         st.session_state.previous_answer = ""
-    if 'my_selectbox.index' not in st.session_state:
-        st.session_state.my_selectbox.index = Null
+    if 'my_selectbox' not in st.session_state:
+        st.session_state.my_selectbox = ''
 
 
 def reset_session_state():
@@ -48,7 +48,7 @@ def data_filter():
 
 
 def calculate_score(player_choice, correct_answer):
-    st.session_state.my_selectbox.index = None
+    st.session_state.my_selectbox = ''
     if player_choice == correct_answer:
         st.session_state.player_score += 1
     st.session_state.question_counter += 1
