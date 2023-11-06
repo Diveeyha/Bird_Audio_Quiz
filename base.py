@@ -50,11 +50,11 @@ def calculate_score(player_choice, correct_answer):
     if player_choice == correct_answer:
         st.session_state.player_score += 1
     st.session_state.question_counter += 1
+    st.session_state.my_select = None
 
 
 st.title("North American Bird Quiz")
 initialize_session_state()
-st.session_state.my_select = None
 
 tab1, tab2 = st.tabs(["Bird List", "Audio"])
 with tab1:
