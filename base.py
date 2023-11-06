@@ -67,7 +67,7 @@ with tab2:
     answer = birds.iloc[ind, 0]
     st.audio(get_audio(ind, birds, answer))
     # st.write(ind, answer)
-    temp=0
+    temp=None
 
     guess = st.selectbox("Answer:", options, key="my_selectbox", index=temp)
 
