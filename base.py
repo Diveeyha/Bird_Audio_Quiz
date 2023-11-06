@@ -97,7 +97,7 @@ with tab2:
         st.session_state.question_counter = 0
         st.session_state.previous_answer = ""
         st.session_state.question_number = 0
-        st.session_state.my_selectbox.index = None
+        st.session_state.my_selectbox = ''
         bird_data.clear()
         st.experimental_rerun()
 
