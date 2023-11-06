@@ -20,9 +20,9 @@ def clear_select():
 
 
 def reset_session_state():
-    st.session_state.my_select = None
     st.session_state.question_number = 0
     bird_data.clear()
+    st.experimental_rerun()
 
 
 @st.cache_data
@@ -81,9 +81,7 @@ with tab2:
 
             if st.session_state.question_number == (len(birds)-1):
                 st.session_state.previous_answer = answer
-                st.session_state.question_number = 0
-                bird_data.clear()
-                st.experimental_rerun()
+                reset_session_state())
 
             elif st.session_state.question_number < len(birds):
                 idx = st.session_state.question_number
@@ -93,13 +91,11 @@ with tab2:
                 st.experimental_rerun()
 
 
-    if col2.button("Reset", key="reset", type="primary", on_click=reset_session_state):
+    if col2.button("Reset", key="reset", type="primary", on_click=clear_select):
         st.session_state.player_score = 0
         st.session_state.question_counter = 0
         st.session_state.previous_answer = ""
-        st.session_state.question_number = 0
-        bird_data.clear()
-        st.experimental_rerun()
+        reset_session_state()
 
     col1, col2 = st.columns(2)
     with col1:
