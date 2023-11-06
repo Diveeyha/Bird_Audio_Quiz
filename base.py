@@ -13,8 +13,10 @@ def initialize_session_state():
         st.session_state.question_counter = 0
     if 'previous_answer' not in st.session_state:
         st.session_state.previous_answer = ""
-    if 'my_select' != None:
-        st.session_state.my_select = None
+        
+
+def clear_select():
+    st.session_state.my_select = None
 
 
 def reset_session_state():
@@ -74,7 +76,7 @@ with tab2:
 
     col1, col2 = st.columns(2)
     with col1:
-        if st.button("Submit", key="submit"):
+        if st.button("Submit", key="submit", on_click=clear_select):
             calculate_score(guess, answer)
 
             if st.session_state.question_number == (len(birds)-1):
