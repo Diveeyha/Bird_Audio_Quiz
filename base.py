@@ -47,7 +47,6 @@ def data_filter():
 
 
 def calculate_score(player_choice, correct_answer):
-    del st.session_state[my_selectbox]
     if player_choice == correct_answer:
         st.session_state.player_score += 1
     st.session_state.question_counter += 1
@@ -88,7 +87,6 @@ with tab2:
                 st.session_state.question_number = idx
                 st.session_state.previous_answer = answer
                 st.experimental_rerun()
-
 
 
     if col2.button("Reset", key="reset", type="primary", on_click=reset_session_state):
