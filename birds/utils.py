@@ -1,5 +1,5 @@
-import streamlit as st
 import os
+
 
 def clean_bird_name(bird):
     bird = bird.replace(' ', '_')
@@ -29,10 +29,7 @@ def load_urls(bird, key):
 
 
 def save_urls(bird, urls, key):
-    try:
-        filename = get_filename(bird=bird, key=key)
-        with open(filename + '.txt', 'w', encoding='UTF8') as f:
-            for url in urls:
-                f.write(url + '\n')
-    except:
-        print('Failed to save {:s} url'.format(key))
+    filename = get_filename(bird=bird, key=key)
+    with open(filename + '.txt', 'w', encoding='UTF8') as f:
+        for url in urls:
+            f.write(url + '\n')
