@@ -62,16 +62,16 @@ with st.sidebar:
     st.dataframe(data_filter()['name'], hide_index=True)
 
 
-st.caption("This quiz tests your identification skills.")
+st.text("This quiz tests your identification skills.")
 birds = bird_data(data_filter())
 ind = st.session_state.question_number
 options = birds['name'].sort_values()
 st.session_state.correct_answer = birds.iloc[ind, 0]
 
 image_url = get_image(birds, st.session_state.correct_answer)
-#caption_url = get_caption(birds, st.session_state.correct_answer)
+caption_url = get_caption(birds, st.session_state.correct_answer)
 if (st.session_state.quiz_radio == "Image & Audio"):
-    st.image(image_url, width=470)
+    st.image(image_url, caption_url, width=470)
 
 st.audio(get_audio(birds, st.session_state.correct_answer))
 # st.write(ind, st.session_state.correct_answer)
