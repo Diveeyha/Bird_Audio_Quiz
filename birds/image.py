@@ -44,40 +44,26 @@ def get_image_urls(bird_name):
 @st.cache_data
 def find_image_urls(birds):
     image = {}
-    # caption = {}
+    caption = {}
     for bird in birds:
         urls = load_urls(bird, 'image')
-        # text = load_urls(bird, 'caption')
+        text = load_urls(bird, 'caption')
         if not isinstance(urls, list):
             urls = get_image_urls(birds[bird])
             save_urls(bird, urls, 'image')
-            # save_urls(bird, text, 'caption')
-        image[bird] = urls
-        # caption[bird] = text
-    return image
-
-
-@st.cache_data
-def find_caption_urls(birds):
-    caption = {}
-    for bird in birds:
-        text = load_urls(bird, 'caption')
-        if not isinstance(text, list):
-            text = get_image_urls(birds[bird])
             save_urls(bird, text, 'caption')
+        image[bird] = urls
         caption[bird] = text
-    return caption
+    return image, caption
 
 
 @st.cache_data
 def get_image(birds, answer):
-    image_file = find_image_urls(birds['name'])
-    url = random.choice(image_file[answer])
-    return url
-
-
-@st.cache_data
-def get_caption(birds, answer):
-    caption_info = find_caption_urls(birds['name'])
-    url = random.choice(caption_info[answer])
-    return url
+    image_file = find_image_urls(birds['name'])[0]
+    caption_file = find_image_urls(birds['name'])[1]
+    url = image_file[answer]
+    caption = caption_file[answer]
+    i = random.choice(range(len(url)))
+    image_url = url[i]
+    image_caption = caption[i]
+    return image_url, image_caption
