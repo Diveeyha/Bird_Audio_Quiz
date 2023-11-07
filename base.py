@@ -1,7 +1,7 @@
 import streamlit as st
-from birds.database import load_csv, get_birds_by_family
+from birds.database import load_csv, get_birds_by_family, get_birds_by_group
 from birds.audio import get_audio
-from birds.image import get_image, get_caption
+from birds.image import get_image
 
 
 def initialize_session_state():
@@ -31,6 +31,7 @@ def clear_select():
 def reset_session_state():
     st.session_state.question_number = 0
     bird_data.clear()
+    get_image.clear()
     st.experimental_rerun()
 
 
@@ -43,7 +44,8 @@ def bird_data(bird_filter):
 
 def data_filter():
     if st.session_state.filter_select == "Test":
-        bird_filter = get_birds_by_family('sulidae')
+        #bird_filter = get_birds_by_family('sulidae')
+        bird_filter = get_birds_by_group('storks')
         return bird_filter
     elif st.session_state.filter_select == "All":
         bird_filter = load_csv()
@@ -68,8 +70,8 @@ ind = st.session_state.question_number
 options = birds['name'].sort_values()
 st.session_state.correct_answer = birds.iloc[ind, 0]
 
-image_url = get_image(birds, st.session_state.correct_answer)
-caption_url = get_caption(birds, st.session_state.correct_answer)
+image_url, caption_url = get_image(birds, st.session_state.correct_answer)
+# st.text(get_image_urls())
 if (st.session_state.quiz_radio == "Image & Audio"):
     st.image(image_url, caption_url, width=470)
 
