@@ -1,6 +1,7 @@
 from .html import *
 from .utils import *
 import streamlit as st
+import random
 
 
 def get_audio_urls(bird_name):
@@ -13,7 +14,7 @@ def get_audio_urls(bird_name):
 
 
 @st.cache_data
-def find_bird_urls(birds):
+def find_audio_urls(birds):
     audio = {}
     for bird in birds:
         urls = load_urls(bird, 'audio')
@@ -24,7 +25,8 @@ def find_bird_urls(birds):
     return audio
 
 
-def get_audio(question_number, birds, answer):
-    audio_file = find_bird_urls(birds['name'])
+@st.cache_data
+def get_audio(birds, answer):
+    audio_file = find_audio_urls(birds['name'])
     url = random.choice(audio_file[answer])
     return url
