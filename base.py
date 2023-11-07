@@ -31,21 +31,22 @@ def clear_select():
 def reset_session_state():
     st.session_state.question_number = 0
     bird_data.clear()
+    get_audio.clear()
     get_image.clear()
     st.experimental_rerun()
 
 
 @st.cache_data
 def bird_data(bird_filter):
-    birds = bird_filter.sample(frac=1)
+    random_birds = bird_filter.sample(frac=1)
     # st.data_editor(birds)
-    return birds
+    return random_birds
 
 
 def data_filter():
     if st.session_state.filter_select == "Test":
-        #bird_filter = get_birds_by_family('sulidae')
-        bird_filter = get_birds_by_group('storks')
+        # bird_filter = get_birds_by_family('sulidae')
+        bird_filter = get_birds_by_group('osprey')
         return bird_filter
     elif st.session_state.filter_select == "All":
         bird_filter = load_csv()
@@ -71,12 +72,10 @@ options = birds['name'].sort_values()
 st.session_state.correct_answer = birds.iloc[ind, 0]
 
 image_url, caption_url = get_image(birds, st.session_state.correct_answer)
-# st.text(get_image_urls())
-if (st.session_state.quiz_radio == "Image & Audio"):
+if st.session_state.quiz_radio == "Image & Audio":
     st.image(image_url, caption_url, width=470)
 
 st.audio(get_audio(birds, st.session_state.correct_answer))
-# st.write(ind, st.session_state.correct_answer)
 
 with st.form(key="user_guess"):
     st.selectbox("Answer:", options, key="player_choice", index=None)
@@ -111,4 +110,4 @@ with col2:
     if st.session_state.question_counter > 0:
         st.write(f"Score: {st.session_state.player_score} correct out of {st.session_state.question_counter}.")
 
-st.session_state
+# st.session_state
