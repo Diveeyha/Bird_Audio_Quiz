@@ -1,5 +1,6 @@
 import streamlit as st
-from birds.database import load_csv, get_birds_by_family, get_birds_by_group
+from birds.database import (load_csv, get_birds_by_group,
+                            get_birds_by_order, get_birds_by_family)
 from birds.audio import get_audio
 from birds.image import get_image
 
@@ -15,6 +16,12 @@ def initialize_session_state():
         st.session_state.previous_answer = ""
     if 'correct_answer' not in st.session_state:
         st.session_state.correct_answer = ""
+    if 'multi_group' not in st.session_state:
+        st.session_state.multi_group = []
+    if 'multi_order' not in st.session_state:
+        st.session_state.multi_order = []
+    if 'multi_family' not in st.session_state:
+        st.session_state.multi_family = []
 
 
 def calculate_score(guess, answer):
@@ -44,31 +51,48 @@ def bird_data(bird_filter):
 
 
 def data_filter():
-    if st.session_state.filter_select == "Test":
-        # bird_filter = get_birds_by_family('sulidae')
-        bird_filter = get_birds_by_group('osprey')
+    bird_csv = load_csv()
+    if st.session_state.filter_select == "All":
+        bird_filter = bird_csv
         return bird_filter
-    elif st.session_state.filter_select == "All":
-        bird_filter = load_csv()
-        return bird_filter
-    elif st.session_state.filter_select == "Waterfowl":
-        bird_filter = get_birds_by_family('anatidae')
-        return bird_filter
+    elif st.session_state.filter_select == "Group":
+        selections = bird_csv['group'].unique()
+        st.multiselect('Groups', list(selections), key="multi_group")
+        bird_filter = get_birds_by_group(st.session_state.multi_group)
+        if len(st.session_state.multi_group) >= 1:
+            return bird_filter
+        else:
+            st.stop()
+    elif st.session_state.filter_select == "Order":
+        selections = bird_csv['order'].unique()
+        st.multiselect('Orders', list(selections), key="multi_order")
+        bird_filter = get_birds_by_order(st.session_state.multi_order)
+        if len(st.session_state.multi_order) >= 1:
+            return bird_filter
+        else:
+            st.stop()
+    elif st.session_state.filter_select == "Family":
+        selections = bird_csv['family'].unique()
+        st.multiselect('Families', list(selections), key="multi_family")
+        bird_filter = get_birds_by_family(st.session_state.multi_family)
+        if len(st.session_state.multi_family) >= 1:
+            return bird_filter
+        else:
+            st.stop()
 
 
 st.title("North American Bird Quiz")
+st.text("This quiz tests your identification skills.")
 initialize_session_state()
 
 with st.sidebar:
     st.radio("Quiz", ["Audio Only", "Image & Audio"], horizontal=True, key="quiz_radio")
-    st.selectbox("Filter by", ("Test", "All", "Waterfowl"), key="filter_select")
-    st.dataframe(data_filter()['name'], hide_index=True)
+    st.selectbox("Select", ("All", "Group", "Order", "Family"), key="filter_select")
+    birds = bird_data(data_filter())
+    options = birds['name'].sort_values()
+    st.dataframe(options, hide_index=True, use_container_width=True)
 
-
-st.text("This quiz tests your identification skills.")
-birds = bird_data(data_filter())
 ind = st.session_state.question_number
-options = birds['name'].sort_values()
 st.session_state.correct_answer = birds.iloc[ind, 0]
 
 image_url, caption_url = get_image(birds, st.session_state.correct_answer)
@@ -110,4 +134,5 @@ with col2:
     if st.session_state.question_counter > 0:
         st.write(f"Score: {st.session_state.player_score} correct out of {st.session_state.question_counter}.")
 
+st.caption("All media sourced from [The Cornell Lab of Ornithology: Macaulay Library](https://www.macaulaylibrary.org)")
 # st.session_state
