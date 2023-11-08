@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import os
-
+#from .utils import load_state_list
 
 def get_csv_name():
     csv_dir = os.path.dirname(__file__)
@@ -21,26 +21,30 @@ def save_csv(dataframe, index=True):
 @st.cache_data
 def get_birds_by_group(*groups):
     csv = load_csv()
-    df = csv[csv['group'].isin(groups)]
+    df = csv[csv['group'].isin(*groups)]
     return df.sort_values(by=['name'])
 
 
 @st.cache_data
 def get_birds_by_order(*orders):
     csv = load_csv()
-    df = csv[csv['order'].isin(orders)]
+    df = csv[csv['order'].isin(*orders)]
     return df.sort_values(by=['name'])
 
 
 @st.cache_data
 def get_birds_by_family(*families):
     csv = load_csv()
-    df = csv[csv['family'].isin(families)]
+    df = csv[csv['family'].isin(*families)]
     return df.sort_values(by=['name'])
 
 
 @st.cache_data
 def get_birds_by_taxonomy(*species):
     csv = load_csv()
-    df = csv[csv['species'].isin(species)]
+    df = csv[csv['species'].isin(*species)]
     return df.sort_values(by=['name'])
+
+
+#def get_birds_by_state(*states):
+#    state_list = load_state_list(state)
