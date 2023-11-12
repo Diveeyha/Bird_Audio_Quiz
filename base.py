@@ -135,4 +135,4 @@ with col2:
         st.write(f"Score: {st.session_state.player_score} correct out of {st.session_state.question_counter}.")
 
 st.caption("All media sourced from [The Cornell Lab of Ornithology: Macaulay Library](https://www.macaulaylibrary.org)")
-# st.session_state
+st.session_state
