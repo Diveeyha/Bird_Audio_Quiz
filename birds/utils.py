@@ -23,13 +23,13 @@ def get_filename(bird, key):
 # @st.cache_data
 def load_urls(bird, key):
     filename = get_filename(bird=bird, key=key)
-    with open(filename + '.txt', 'r', encoding='UTF8') as f:
+    with open(filename + '.txt', 'r', encoding="utf-8") as f:
         urls = f.readlines()
     return [url.strip() for url in urls]
 
 
 def save_urls(bird, urls, key):
     filename = get_filename(bird=bird, key=key)
-    with open(filename + '.txt', 'w', encoding='UTF8') as f:
+    with open(filename + '.txt', 'w', encoding="utf-8") as f:
         for url in urls:
             f.write(url + '\n')
