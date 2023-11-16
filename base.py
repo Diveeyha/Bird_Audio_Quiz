@@ -56,7 +56,7 @@ def data_filter(state):
     else:
         bird_csv = load_csv('state_info.csv')
         bird_csv = bird_csv[bird_csv[state] == 1]
-    st.selectbox("You may choose to filter the list of species by:", ("All", "Group", "Order", "Family", "Species"), key="filter_select")
+    st.radio("Filter by: ", ["All", "Group", "Order", "Family", "Species"], horizontal=True, key="filter_select")
     if st.session_state.filter_select == "All":
         bird_filter = bird_csv
         return bird_filter
@@ -106,7 +106,7 @@ def data_filter(state):
 def area_filter():
     state_options = load_csv('state_codes.csv')
     state_options.loc[0] = 'All'
-    st.selectbox("You may choose to filter by State:", state_options, key="filter_state")
+    st.selectbox("Filter by State:", state_options, key="filter_state")
     return bird_data(data_filter(st.session_state.filter_state))
 
 
@@ -116,9 +116,7 @@ initialize_session_state()
 
 with st.sidebar:
     st.radio("Quiz", ["Audio Only", "Image & Audio"], horizontal=True, key="quiz_radio")
-    #
     birds = area_filter()
-
     options = birds['name'].sort_values()
     st.dataframe(options, hide_index=True, use_container_width=True)
 
@@ -160,8 +158,9 @@ with st.form(key="user_guess"):
 col1, col2 = st.columns(2)
 with col1:
     if st.session_state.question_counter > 0:
-        formatted_birdname = clean_bird_name(st.session_state.previous_answer)
-        st.write(f"Correct answer is [{st.session_state.previous_answer}](https://www.allaboutbirds.org/guide/{formatted_birdname}).")
+        formatted_name = clean_bird_name(st.session_state.previous_answer)
+        st.write(f"Correct answer is [{st.session_state.previous_answer}]"
+                 f"(https://www.allaboutbirds.org/guide/{formatted_name}).")
 with col2:
     if st.session_state.question_counter > 0:
         st.write(f"Score: {st.session_state.player_score} correct out of {st.session_state.question_counter}.")
