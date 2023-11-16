@@ -1,50 +1,42 @@
 import streamlit as st
 import pandas as pd
 import os
-#from .utils import load_state_list
 
-def get_csv_name():
+
+def get_csv_name(filename):
     csv_dir = os.path.dirname(__file__)
-    return os.path.join(csv_dir, 'resources', 'database.csv')
+    return os.path.join(csv_dir, 'resources', filename)
 
 
-@st.cache_data
-def load_csv():
-    csv = pd.read_csv(get_csv_name())
+# @st.cache_data
+def load_csv(filename):
+    csv = pd.read_csv(get_csv_name(filename))
     return csv.sort_values(by=csv.columns[0])
 
 
-def save_csv(dataframe, index=True):
-    dataframe.to_csv(get_csv_name(), index=index)
+def save_csv(filename, dataframe):
+    dataframe.to_csv(get_csv_name(filename), index=False)
 
 
 @st.cache_data
-def get_birds_by_group(*groups):
-    csv = load_csv()
+def get_birds_by_group(csv, *groups):
     df = csv[csv['group'].isin(*groups)]
     return df.sort_values(by=['name'])
 
 
 @st.cache_data
-def get_birds_by_order(*orders):
-    csv = load_csv()
+def get_birds_by_order(csv, *orders):
     df = csv[csv['order'].isin(*orders)]
     return df.sort_values(by=['name'])
 
 
 @st.cache_data
-def get_birds_by_family(*families):
-    csv = load_csv()
+def get_birds_by_family(csv, *families):
     df = csv[csv['family'].isin(*families)]
     return df.sort_values(by=['name'])
 
 
 @st.cache_data
-def get_birds_by_taxonomy(*species):
-    csv = load_csv()
-    df = csv[csv['species'].isin(*species)]
+def get_birds_by_name(csv, *species):
+    df = csv[csv['name'].isin(*species)]
     return df.sort_values(by=['name'])
-
-
-#def get_birds_by_state(*states):
-#    state_list = load_state_list(state)
