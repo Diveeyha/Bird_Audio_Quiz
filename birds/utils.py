@@ -33,3 +33,10 @@ def save_urls(bird, urls, key):
     with open(filename + '.txt', 'w', encoding="utf-8") as f:
         for url in urls:
             f.write(url + '\n')
+
+
+def load_state_list(state, key):
+    filename = get_filename(state, key)
+    with open(filename + '.txt', 'r', encoding="utf-8") as f:
+        bird_names = [x for x in (line.strip() for line in f) if x]
+    return bird_names
