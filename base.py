@@ -52,7 +52,7 @@ def bird_data(bird_filter):
 
 def data_filter(state):
     if state == 'All':
-        bird_csv = load_csv('database.csv')
+        bird_csv = load_csv('state_info.csv')
     else:
         bird_csv = load_csv('state_info.csv')
         bird_csv = bird_csv[bird_csv[state] == 1]
