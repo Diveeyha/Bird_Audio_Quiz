@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-import webbrowser
 
 
 def get_page(url):
@@ -16,7 +15,3 @@ def get_bird_url(bird):
     bird = bird.replace(' ', '_')
     bird = bird.replace("'", '')
     return 'https://www.allaboutbirds.org/guide/{:s}/'.format(bird)
-
-
-def open_browser(bird):
-    webbrowser.open(get_bird_url(bird))
