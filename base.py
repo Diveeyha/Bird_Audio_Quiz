@@ -55,7 +55,7 @@ def data_filter(state):
         bird_csv = load_csv('state_info.csv')
     else:
         bird_csv = load_csv('state_info.csv')
-        bird_csv = bird_csv[bird_csv[state] == 1]
+        bird_csv = bird_csv[bird_csv[state.lower()] == 1]
     st.radio("Filter by: ", ["All", "Group", "Order", "Family", "Species"], horizontal=True, key="filter_select")
     if st.session_state.filter_select == "All":
         bird_filter = bird_csv
@@ -105,7 +105,9 @@ def data_filter(state):
 
 def area_filter():
     state_options = load_csv('state_codes.csv')
-    state_options.loc[0] = 'All'
+    state_options.loc[-1] = ['All']
+    state_options.index = state_options.index + 1  # shifting index
+    state_options.sort_index(inplace=True)
     st.selectbox("Filter by State:", state_options, key="filter_state")
     return bird_data(data_filter(st.session_state.filter_state))
 
