@@ -4,6 +4,7 @@ import os
 def clean_bird_name(bird):
     bird = bird.replace(' ', '_')
     bird = bird.replace('\'', '')
+    bird = bird.lower()
     return bird
 
 
