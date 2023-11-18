@@ -169,7 +169,7 @@ Common Eider,ducks,anseriformes,anatidae,somateria mollissima,sea_ducks,0,1,0,0,
 Common Gallinule,rails,gruiformes,rallidae,gallinula galeata,rails,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
 Common Goldeneye,ducks,anseriformes,anatidae,bucephala clangula,sea_ducks,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 Common Grackle,blackbirds,passeriformes,icteridae,quiscalus quiscula,blackbirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Common Ground Dove,doves,columbiformes,columbidae,columbina passerina,doves,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Ground-Dove,doves,columbiformes,columbidae,columbina passerina,doves,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Common Loon,loons,gaviiformes,gaviidae,gavia immer,grebes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 Common Merganser,ducks,anseriformes,anatidae,mergus merganser,sea_ducks,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 Common Murre,auks,charadriiformes,alcidae,uria aalge,auks,0,1,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,1,0,1,1,0,0,0,0,1,1,1,0,0,0
@@ -372,7 +372,7 @@ Northern Cardinal,cardinals,passeriformes,cardinalidae,cardinalis cardinalis,fin
 Northern Flicker,woodpeckers,piciformes,picidae,colaptes auratus,woodpeckers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 Northern Fulmar,seabirds,procellariiformes,procellariidae,fulmarus glacialis,seabirds,0,1,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,0,1,1,1,0,0,0,0,0,1,1,1,0,0,0
 Northern Gannet,seabirds,suliformes,sulidae,morus bassanus,seabirds,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,0,1,1,1,1,1,0,1,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,1,0,1,1,0,1,1,0,0,0,0
-American Goshawk,accipiters,accipitriformes,accipitridae,accipiter gentilis,raptors,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Northern Goshawk,accipiters,accipitriformes,accipitridae,accipiter gentilis,raptors,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Northern Harrier,harriers,accipitriformes,accipitridae,circus hudsonius,raptors,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 Northern Hawk Owl,owls,strigiformes,strigidae,surnia ulula,owls,0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,1,1,1,0,0,1,0,0,1,1,0,1,0,1,1,0,1,1,0,0,0,0,0,0,1,0,1,1,1,1
 Northern Mockingbird,mockingbirds,passeriformes,mimidae,mimus polyglottos,mimids,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
