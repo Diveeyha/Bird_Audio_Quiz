@@ -71,9 +71,9 @@ def data_filter(state):
                 return bird_filter
             else:
                 st.write("Choose another group.")
+                st.dataframe(df_birds, hide_index=True, use_container_width=True)
                 st.stop()
         else:
-            st.dataframe(df_birds, hide_index=True, use_container_width=True)
             st.dataframe(df_birds, hide_index=True, use_container_width=True)
             st.stop()
     elif st.session_state.filter_select == "Order":
