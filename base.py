@@ -67,7 +67,11 @@ def data_filter(state):
         bird_filter = get_birds_by_group(bird_csv, st.session_state.multi_group)
         df_birds = bird_csv['name'].unique()
         if len(st.session_state.multi_group) >= 1:
-            return bird_filter
+            if len(df_birds) > 1:
+                return bird_filter
+            else:
+                st.write("There is only one species in this list. Please choose another group.")
+                st.stop()
         else:
             st.dataframe(df_birds, hide_index=True, use_container_width=True)
             st.stop()
@@ -78,7 +82,11 @@ def data_filter(state):
         bird_filter = get_birds_by_order(bird_csv, st.session_state.multi_order)
         df_birds = bird_csv['name'].unique()
         if len(st.session_state.multi_order) >= 1:
-            return bird_filter
+            if len(df_birds) > 1:
+                return bird_filter
+            else:
+                st.write("There is only one species in this list. Please choose another order.")
+                st.stop()
         else:
             st.dataframe(df_birds, hide_index=True, use_container_width=True)
             st.stop()
@@ -87,9 +95,13 @@ def data_filter(state):
         selections = sorted(selections)
         st.multiselect('Families', list(selections), key="multi_family")
         bird_filter = get_birds_by_family(bird_csv, st.session_state.multi_family)
-        df_birds = bird_csv['name'].unique()
+        df_birds = bird_filter['name'].unique()
         if len(st.session_state.multi_family) >= 1:
-            return bird_filter
+            if len(df_birds) > 1:
+                return bird_filter
+            else:
+                st.write("There is only one species in this list. Please choose another family.")
+                st.stop()
         else:
             st.dataframe(df_birds, hide_index=True, use_container_width=True)
             st.stop()
@@ -101,7 +113,11 @@ def data_filter(state):
         df_birds = bird_csv['name'].unique()
 
         if len(st.session_state.multi_species) > 1:
-            return bird_filter
+            if len(df_birds) > 1:
+                return bird_filter
+            else:
+                st.write("There is only one species in this list. Please choose another species.")
+                st.stop()
         else:
             st.dataframe(df_birds, hide_index=True, use_container_width=True)
             st.stop()
