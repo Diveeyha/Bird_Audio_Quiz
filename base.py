@@ -70,7 +70,7 @@ def data_filter(state):
             if len(df_birds) > 1:
                 return bird_filter
             else:
-                st.write("Choose another group.")
+                st.write("Choose an additional group.")
                 st.dataframe(df_birds, hide_index=True, use_container_width=True)
                 st.stop()
         else:
@@ -86,7 +86,7 @@ def data_filter(state):
             if len(df_birds) > 1:
                 return bird_filter
             else:
-                st.write("Choose another order.")
+                st.write("Choose an additional order.")
                 st.dataframe(df_birds, hide_index=True, use_container_width=True)
                 st.stop()
         else:
@@ -102,7 +102,7 @@ def data_filter(state):
             if len(df_birds) > 1:
                 return bird_filter
             else:
-                st.write("Choose another family.")
+                st.write("Choose an additional family.")
                 st.dataframe(df_birds, hide_index=True, use_container_width=True)
                 st.stop()
         else:
@@ -118,7 +118,7 @@ def data_filter(state):
             if len(df_birds) > 1:
                 return bird_filter
             else:
-                st.write("Choose another species.")
+                st.write("Choose an additional species.")
                 st.dataframe(df_birds, hide_index=True, use_container_width=True)
                 st.stop()
         else:
