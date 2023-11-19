@@ -70,9 +70,10 @@ def data_filter(state):
             if len(df_birds) > 1:
                 return bird_filter
             else:
-                st.write("There is only one species in this list. Please choose another group.")
+                st.write("Choose another group.")
                 st.stop()
         else:
+            st.dataframe(df_birds, hide_index=True, use_container_width=True)
             st.dataframe(df_birds, hide_index=True, use_container_width=True)
             st.stop()
     elif st.session_state.filter_select == "Order":
@@ -85,7 +86,8 @@ def data_filter(state):
             if len(df_birds) > 1:
                 return bird_filter
             else:
-                st.write("There is only one species in this list. Please choose another order.")
+                st.write("Choose another order.")
+                st.dataframe(df_birds, hide_index=True, use_container_width=True)
                 st.stop()
         else:
             st.dataframe(df_birds, hide_index=True, use_container_width=True)
@@ -100,7 +102,8 @@ def data_filter(state):
             if len(df_birds) > 1:
                 return bird_filter
             else:
-                st.write("There is only one species in this list. Please choose another family.")
+                st.write("Choose another family.")
+                st.dataframe(df_birds, hide_index=True, use_container_width=True)
                 st.stop()
         else:
             st.dataframe(df_birds, hide_index=True, use_container_width=True)
@@ -115,7 +118,8 @@ def data_filter(state):
             if len(df_birds) > 1:
                 return bird_filter
             else:
-                st.write("There is only one species in this list. Please choose another species.")
+                st.write("Choose another species.")
+                st.dataframe(df_birds, hide_index=True, use_container_width=True)
                 st.stop()
         else:
             st.dataframe(df_birds, hide_index=True, use_container_width=True)
