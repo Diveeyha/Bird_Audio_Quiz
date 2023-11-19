@@ -62,6 +62,7 @@ def data_filter(state):
         return bird_filter
     elif st.session_state.filter_select == "Group":
         selections = bird_csv['group'].unique()
+        selections = sorted(selections)
         st.multiselect('Groups', list(selections), key="multi_group")
         bird_filter = get_birds_by_group(bird_csv, st.session_state.multi_group)
         df_birds = bird_csv['name'].unique()
@@ -72,6 +73,7 @@ def data_filter(state):
             st.stop()
     elif st.session_state.filter_select == "Order":
         selections = bird_csv['order'].unique()
+        selections = sorted(selections)
         st.multiselect('Orders', list(selections), key="multi_order")
         bird_filter = get_birds_by_order(bird_csv, st.session_state.multi_order)
         df_birds = bird_csv['name'].unique()
@@ -82,6 +84,7 @@ def data_filter(state):
             st.stop()
     elif st.session_state.filter_select == "Family":
         selections = bird_csv['family'].unique()
+        selections = sorted(selections)
         st.multiselect('Families', list(selections), key="multi_family")
         bird_filter = get_birds_by_family(bird_csv, st.session_state.multi_family)
         df_birds = bird_csv['name'].unique()
@@ -92,6 +95,7 @@ def data_filter(state):
             st.stop()
     elif st.session_state.filter_select == "Species":
         selections = bird_csv['name'].unique()
+        selections = sorted(selections)
         st.multiselect('Species', list(selections), key="multi_species")
         bird_filter = get_birds_by_name(bird_csv, st.session_state.multi_species)
         df_birds = bird_csv['name'].unique()
