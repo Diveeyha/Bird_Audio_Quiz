@@ -37,6 +37,6 @@ def get_birds_by_family(csv, *families):
 
 
 @st.cache_data
-def get_birds_by_name(csv, *species):
-    df = csv[csv['name'].isin(*species)]
+def get_birds_by_taxonomic_name(csv, *species):
+    df = csv[csv['species'].isin(*species)]
     return df.sort_values(by=['name'])
