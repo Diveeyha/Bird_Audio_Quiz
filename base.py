@@ -114,8 +114,8 @@ def state_dropdown_options():
 
 def main():
     # st.set_page_config(layout='wide')
-    st.title("North American Bird Quiz")
-    st.write("This quiz tests your identification skills.")
+    st.title("US Bird Quiz")
+    #st.divider()
     initialize_session_state()
 
     st.sidebar.radio("Quiz", ["Audio Only", "Image & Audio"], horizontal=True, key="quiz_radio")
@@ -127,8 +127,8 @@ def main():
     birds = bird_data(data_filter(state_filter(st.session_state.filter_state)))
     options = birds['name'].sort_values()
     st.sidebar.divider()
+    st.sidebar.text(f"{len(options)} species")
     st.sidebar.dataframe(options, hide_index=True, use_container_width=True)
-
 
     ind = st.session_state.question_number
     st.session_state.correct_answer = birds.iloc[ind, 0]
@@ -189,5 +189,4 @@ if __name__ == "__main__":
     st.markdown("""<style>body {text-align: center}
                 p {text-align: center} 
                 button {float: center} </style>""", unsafe_allow_html=True)
-    # st.markdown("<style></style>", unsafe_allow_html=True)
     main()
