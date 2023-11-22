@@ -115,7 +115,7 @@ def state_dropdown_options():
 def main():
     # st.set_page_config(layout='wide')
     st.title("USA Bird Quiz")
-    st.divider()
+    #st.divider()
     initialize_session_state()
 
     st.sidebar.radio("Quiz", ["Audio Only", "Image & Audio"], horizontal=True, key="quiz_radio")
