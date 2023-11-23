@@ -131,8 +131,12 @@ def main():
     st.sidebar.dataframe(options, hide_index=True, use_container_width=True)
 
     ind = st.session_state.question_number
-    st.session_state.correct_answer = birds.iloc[ind, 0]
-    answer_options = birds.loc[birds['quiz_answer_groups'] == birds.iloc[ind, 5]]
+    if (ind < len(options)):
+        st.session_state.correct_answer = birds.iloc[ind, 0]
+    else:
+        ind = (ind + 1) % len(birds)
+        st.session_state.correct_answer = birds.iloc[ind, 0]
+    answer_dropdown = birds.loc[birds['quiz_answer_groups'] == birds.iloc[ind, 5]]
 
     image_url, caption_url = get_image(birds, st.session_state.correct_answer)
     if st.session_state.quiz_radio == "Image & Audio":
@@ -142,9 +146,13 @@ def main():
     st.audio(get_audio(birds, st.session_state.correct_answer))
 
     with st.form(key="user_guess"):
+        if len(answer_dropdown) < 10:
+            answer_options = options
+        else:
+            answer_options = answer_dropdown['name']
 
         col1, empty, col2, col3 = st.columns([2, 0.75, 0.75, 0.75])
-        col1.selectbox("Answer:", answer_options['name'].sort_values(), key="player_choice",
+        col1.selectbox("Answer:", answer_options.sort_values(), key="player_choice",
                        index=None, label_visibility="collapsed")
 
         with col2:
