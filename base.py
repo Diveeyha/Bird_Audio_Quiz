@@ -1,3 +1,4 @@
+# import pandas as pd
 import streamlit as st
 from birds.database import (load_csv, get_birds_by_group, get_birds_by_taxonomic_name,
                             get_birds_by_order, get_birds_by_family)
@@ -25,11 +26,16 @@ def initialize_session_state():
         st.session_state.multi_family = []
     if 'multi_species' not in st.session_state:
         st.session_state.multi_species = []
+    if 'answered_correctly' not in st.session_state:
+        st.session_state.answered_correctly = False
 
 
 def calculate_score(guess, answer):
     if guess == answer:
+        st.session_state.answered_correctly = True
         st.session_state.player_score += 1
+    else:
+        st.session_state.answered_correctly = False
     st.session_state.question_counter += 1
 
 
@@ -43,7 +49,7 @@ def reset_session_state():
     bird_data.clear()
     get_audio.clear()
     get_image.clear()
-    st.experimental_rerun()
+    st.rerun()
 
 
 @st.cache_data
@@ -52,9 +58,18 @@ def bird_data(bird_filter):
     return random_birds
 
 
+def sidebar_dropdowns():
+    st.sidebar.radio("Quiz", ["Audio Only", "Image & Audio"], horizontal=True, key="quiz_radio")
+    st.sidebar.divider()
+    st.sidebar.selectbox("Filter by State:", state_dropdown_options(), key="filter_state")
+    st.sidebar.divider()
+    st.sidebar.radio("Filter by: ", ["All", "Group", "Order", "Family", "Species"], horizontal=True,
+                     key="filter_select")
+
+
 def filter_selections(bird_csv, user_input):
     test_err = ('''Quiz will automatically load when minimum requirements are met.\n
-                Please make sure that more than one species is included in the filter.''')
+                 Please make sure that more than one species is included in the filter.''')
 
     lookup_dict = {'group': get_birds_by_group, 'order': get_birds_by_order,
                    'family': get_birds_by_family, 'species': get_birds_by_taxonomic_name}
@@ -68,9 +83,25 @@ def filter_selections(bird_csv, user_input):
     selections = [names.lower() for names in selections]
     selections = sorted(selections)
 
-    st.sidebar.multiselect(user_input, list(selections), key=key_var, label_visibility="collapsed")
-
     get_birds_func_call = lookup_dict[user_input_lower]
+
+    selected = []
+    removed = []
+    delimiter = ', '
+    for x in key_dict[key_var]:
+        if len(get_birds_func_call(bird_csv, [x])) > 0:
+            selected.append(x)
+        else:
+            removed.append(x)
+    if len(removed) == 1:
+        st.toast(f"{delimiter.join(removed)} was removed because it has not been reported in "
+                 f"{st.session_state.filter_state}.")
+    elif len(removed) > 1:
+        st.toast(f"{delimiter.join(removed)} were removed because they have not been reported in "
+                 f"{st.session_state.filter_state}.")
+
+    st.sidebar.multiselect(user_input, list(selections), selected,  key=key_var, label_visibility="collapsed")
+
     bird_filter = get_birds_func_call(bird_csv, key_dict[key_var])
     df_birds = bird_filter['name'].unique()
 
@@ -89,17 +120,14 @@ def filter_selections(bird_csv, user_input):
 
 def data_filter(bird_csv):
     if st.session_state.filter_select == "All":
-        bird_filter = bird_csv
-        return bird_filter
+        return bird_csv
     else:
         return filter_selections(bird_csv, st.session_state.filter_select)
 
 
 def state_filter(state):
-    if state == 'All':
-        bird_csv = load_csv('state_info.csv')
-    else:
-        bird_csv = load_csv('state_info.csv')
+    bird_csv = load_csv('state_info.csv')
+    if state != 'All':
         bird_csv = bird_csv[bird_csv[state.lower()] == 1]
     return bird_csv
 
@@ -115,15 +143,10 @@ def state_dropdown_options():
 def main():
     # st.set_page_config(layout='wide')
     st.title("USA Bird Quiz")
-    #st.divider()
+    # st.divider()
     initialize_session_state()
 
-    st.sidebar.radio("Quiz", ["Audio Only", "Image & Audio"], horizontal=True, key="quiz_radio")
-    st.sidebar.divider()
-    st.sidebar.selectbox("Filter by State:", state_dropdown_options(), key="filter_state")
-    st.sidebar.divider()
-    st.sidebar.radio("Filter by: ", ["All", "Group", "Order", "Family", "Species"], horizontal=True,
-                     key="filter_select")
+    sidebar_dropdowns()
     birds = bird_data(data_filter(state_filter(st.session_state.filter_state)))
     options = birds['name'].sort_values()
     st.sidebar.divider()
@@ -131,7 +154,7 @@ def main():
     st.sidebar.dataframe(options, hide_index=True, use_container_width=True)
 
     ind = st.session_state.question_number
-    if (ind < len(options)):
+    if ind < len(options):
         st.session_state.correct_answer = birds.iloc[ind, 0]
     else:
         ind = (ind + 1) % len(birds)
@@ -167,7 +190,7 @@ def main():
                     idx = (idx + 1) % len(birds)
                     st.session_state.question_number = idx
                     st.session_state.previous_answer = st.session_state.correct_answer
-                    st.experimental_rerun()
+                    st.rerun()
 
         with col3:
             if st.form_submit_button("Reset", type="primary", on_click=clear_select):
@@ -176,12 +199,16 @@ def main():
                 st.session_state.previous_answer = ""
                 reset_session_state()
 
-    print_col1, print_col2 = st.columns(2)
+    print_col1, print_col2 = st.columns([1.25, 0.9])
     with print_col1:
         if st.session_state.question_counter > 0:
             formatted_name = clean_bird_name(st.session_state.previous_answer)
-            st.write(f"Correct answer is [{st.session_state.previous_answer}]"
-                     f"(https://www.allaboutbirds.org/guide/{formatted_name}).")
+            if st.session_state.answered_correctly:
+                st.write(f"[{st.session_state.previous_answer}](https://www.allaboutbirds.org/guide/{formatted_name})"
+                         f":green[ is correct! Great Job!] 🎉")
+            else:
+                st.write(f":red[Incorrect. The correct answer is [{st.session_state.previous_answer}]"
+                         f"(https://www.allaboutbirds.org/guide/{formatted_name}).]")
     with print_col2:
         if st.session_state.question_counter > 0:
             st.write(f"Score: {st.session_state.player_score} correct out of {st.session_state.question_counter}.")
@@ -189,6 +216,8 @@ def main():
     st.divider()
     st.caption(f"All media sourced from [The Cornell Lab of Ornithology: Macaulay Library]"
                f"(https://www.macaulaylibrary.org)")
+
+
 # st.session_state
 
 
