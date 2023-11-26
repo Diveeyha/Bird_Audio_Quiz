@@ -130,7 +130,7 @@ def state_dropdown_options():
 
 def main():
     st.title("USA Bird Quiz")
-    #initialize_session_state()
+    initialize_session_state()
 
     st.sidebar.radio("Quiz", ["Audio Only", "Image & Audio"], horizontal=True, key="quiz_radio")
     st.sidebar.divider()
