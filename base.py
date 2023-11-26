@@ -58,15 +58,6 @@ def bird_data(bird_filter):
     return random_birds
 
 
-def sidebar_dropdowns():
-    st.sidebar.radio("Quiz", ["Audio Only", "Image & Audio"], horizontal=True, key="quiz_radio")
-    st.sidebar.divider()
-    st.sidebar.selectbox("Filter by State:", state_dropdown_options(), key="filter_state")
-    st.sidebar.divider()
-    st.sidebar.radio("Filter by: ", ["All", "Group", "Order", "Family", "Species"], horizontal=True,
-                     key="filter_select")
-
-
 def filter_selections(bird_csv, user_input):
     test_err = ('''Quiz will automatically load when minimum requirements are met.\n
                  Please make sure that more than one species is included in the filter.''')
@@ -87,12 +78,9 @@ def filter_selections(bird_csv, user_input):
 
     selected = []
     removed = []
+    [selected.append(x) if len(get_birds_func_call(bird_csv, [x])) > 0
+     else removed.append(x) for x in key_dict[key_var]]
     delimiter = ', '
-    for x in key_dict[key_var]:
-        if len(get_birds_func_call(bird_csv, [x])) > 0:
-            selected.append(x)
-        else:
-            removed.append(x)
     if len(removed) == 1:
         st.toast(f"{delimiter.join(removed)} was removed because it has not been reported in "
                  f"{st.session_state.filter_state}.")
@@ -141,12 +129,16 @@ def state_dropdown_options():
 
 
 def main():
-    # st.set_page_config(layout='wide')
     st.title("USA Bird Quiz")
-    # st.divider()
     initialize_session_state()
 
-    sidebar_dropdowns()
+    st.sidebar.radio("Quiz", ["Audio Only", "Image & Audio"], horizontal=True, key="quiz_radio")
+    st.sidebar.divider()
+    st.sidebar.selectbox("Filter by State:", state_dropdown_options(), key="filter_state")
+    st.sidebar.divider()
+    st.sidebar.radio("Filter by: ", ["All", "Group", "Order", "Family", "Species"], horizontal=True,
+                     key="filter_select")
+
     birds = bird_data(data_filter(state_filter(st.session_state.filter_state)))
     options = birds['name'].sort_values()
     st.sidebar.divider()
