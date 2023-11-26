@@ -79,7 +79,7 @@ def filter_selections(bird_csv, user_input):
     selected = []
     removed = []
     [selected.append(x) if len(get_birds_func_call(bird_csv, [x])) > 0
-     else removed.append(x) for x in key_dict[key_var]]
+        else removed.append(x) for x in key_dict[key_var]]
     delimiter = ', '
     if len(removed) == 1:
         st.toast(f"{delimiter.join(removed)} was removed because it has not been reported in "
