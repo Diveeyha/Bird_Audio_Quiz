@@ -6,6 +6,9 @@ from birds.audio import get_audio
 from birds.image import get_image
 from birds.utils import clean_bird_name
 
+export STREAMLIT_SERVER_PORT=80
+export STREAMLIT_SERVER_COOKIE_SECRET=dontforgottochangeme
+
 
 def initialize_session_state():
     if 'question_number' not in st.session_state:
@@ -79,7 +82,7 @@ def filter_selections(bird_csv, user_input):
     selected = []
     removed = []
     [selected.append(x) if len(get_birds_func_call(bird_csv, [x])) > 0 else removed.append(x) for x in key_dict[key_var]]
-    delimiter = ', '
+    delimiter = (', ')
     if len(removed) == 1:
         st.toast(f"{delimiter.join(removed)} was removed because it has not been reported in "
                  f"{st.session_state.filter_state}.")
