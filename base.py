@@ -6,8 +6,8 @@ from birds.audio import get_audio
 from birds.image import get_image
 from birds.utils import clean_bird_name
 
-export STREAMLIT_SERVER_PORT=80
-export STREAMLIT_SERVER_COOKIE_SECRET=dontforgottochangeme
+#export STREAMLIT_SERVER_PORT=80
+#export STREAMLIT_SERVER_COOKIE_SECRET=dontforgottochangeme
 
 
 def initialize_session_state():
