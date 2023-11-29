@@ -158,7 +158,10 @@ def main():
     image_url, caption_url = get_image(birds, st.session_state.correct_answer)
     if st.session_state.quiz_radio == "Image & Audio":
         adj1, adj2, adj3 = st.columns([1, 4, 1])
-        adj2.image(image_url, caption_url, use_column_width="always")
+        with adj2:
+            st.image(image_url, use_column_width="always")
+            expander = st.expander("Expand to show image caption")
+            expander.caption(caption_url)
 
     st.audio(get_audio(birds, st.session_state.correct_answer))
 
