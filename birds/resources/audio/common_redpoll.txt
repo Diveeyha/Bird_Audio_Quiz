@@ -1,1 +1,8 @@
-https://s3.amazonaws.com/com-aab-media/sound/523187.mp3
+https://www.allaboutbirds.org/guide/assets/sound/550564.mp3
+https://www.allaboutbirds.org/guide/assets/sound/550565.mp3
+https://www.allaboutbirds.org/guide/assets/sound/550566.mp3
+https://www.allaboutbirds.org/guide/assets/sound/550567.mp3
+https://www.allaboutbirds.org/guide/assets/sound/550568.mp3
+https://www.allaboutbirds.org/guide/assets/sound/550569.mp3
+https://www.allaboutbirds.org/guide/assets/sound/550570.mp3
+https://www.allaboutbirds.org/guide/assets/sound/550571.mp3
