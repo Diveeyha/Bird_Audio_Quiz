@@ -1,0 +1,634 @@
+Name,Group,Order,Family,Species,quiz_answer_groups,Alabama,Alaska,Arizona,Arkansas,California,Colorado,Connecticut,Delaware,District of Columbia,Florida,Georgia,Idaho,Illinois,Indiana,Iowa,Kansas,Kentucky,Louisiana,Maine,Massachusetts,Michigan,Minnesota,Mississippi,Missouri,Montana,Nebraska,Nevada,New Hampshire,New Jersey,New Mexico,New York,North Carolina,North Dakota,Ohio,Oklahoma,Oregon,Pennsylvania,Rhode Island,South Carolina,South Dakota,Tennessee,Texas,Utah,Vermont,Virginia,Washington,West Virginia,Wisconsin,Wyoming
+Abert's Towhee,Towhees,Passeriformes,Passerellidae,Melozone aberti,Open_areas,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Acadian Flycatcher,Flycatchers,Passeriformes,Tyrannidae,Empidonax virescens,Empids,1,0,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,0,1,1,0,1,1,0
+Acorn Woodpecker,Woodpeckers,Piciformes,Picidae,Melanerpes formicivorus,Woodpeckers,0,0,1,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,1,0,0,1,0,0,1,0,1,1,0,0,0,0,0,1,1,0,0,1,0,0,1
+Alder Flycatcher,Flycatchers,Passeriformes,Tyrannidae,Empidonax alnorum,Empids,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Allen's Hummingbird,Hummingbirds,Caprimulgiformes,Trochilidae,Selasphorus sasin,Hummingbirds,1,0,1,1,1,0,0,1,0,1,1,0,1,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,1,1,0,1,0,1,0,1,1,0,1,0,1,1,0,0,1,1,0,1,0
+Altamira Oriole,Orioles,Passeriformes,Icteridae,Icterus gularis,Icterids,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+American Avocet,Shorebirds,Charadriiformes,Recurvirostridae,Recurvirostra americana,Shorebirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+American Bittern,Herons,Pelecaniformes,Ardeidae,Botaurus lentiginosus,Cranes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+American Black Duck,Ducks,Anseriformes,Anatidae,Anas rubripes,Dabblers,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+American Coot,Rails,Gruiformes,Rallidae,Fulica americana,Rails,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+American Crow,Crows,Passeriformes,Corvidae,Corvus brachyrhynchos,Corvids,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+American Dipper,Dippers,Passeriformes,Cinclidae,Cinclus mexicanus,Wrens,0,1,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,1,1,0,0,1,0,0,1
+American Golden-Plover,Plovers,Charadriiformes,Charadriidae,Pluvialis dominica,Shorebirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+American Goldfinch,Finches,Passeriformes,Fringillidae,Spinus tristis,Finches,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+American Goshawk,Accipiters,Accipitriformes,Accipitridae,Accipiter gentilis,Raptors,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+American Kestrel,Falcons,Falconiformes,Falconidae,Falco sparverius,Hawks,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+American Oystercatcher,Shorebirds,Charadriiformes,Haematopodidae,Haematopus palliatus,Shorebirds,1,0,0,0,1,0,1,1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,1,0,0,1,0,0,1,0,0,0,0
+American Pipit,Pipits,Passeriformes,Motacillidae,Anthus rubescens,Open_areas,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+American Redstart,Warblers,Passeriformes,Parulidae,Setophaga ruticilla,Setophaga,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+American Robin,Thrushes,Passeriformes,Turdidae,Turdus migratorius,Thrushes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+American Three-toed Woodpecker,Woodpeckers,Piciformes,Picidae,Picoides dorsalis,Woodpeckers,0,1,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,1,1,1,0,0,1,1,1,1,0,1,1,0,0,0,0,1,1,1,0,1,0,0,1,1,0,1,0,1,1
+American Tree Sparrow,Sparrows,Passeriformes,Passerellidae,Spizelloides arborea,Sparrows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+American White Pelican,Pelicans,Pelecaniformes,Pelecanidae,Pelecanus erythrorhynchos,Seabirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+American Wigeon,Ducks,Anseriformes,Anatidae,Mareca americana,Dabblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+American Woodcock,Shorebirds,Charadriiformes,Scolopacidae,Scolopax minor,Shorebirds,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0,1,1,1
+Ancient Murrelet,Auks,Charadriiformes,Alcidae,Synthliboramphus antiquus,Auks,0,1,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,1,1,1,1,0,0,1,1,1,0,0,1,1,0,0,1,0,1,1,0,0,1,0,0,1,1,1,1,0,1,1
+Anhinga,Anhingas,Suliformes,Anhingidae,Anhinga anhinga,Seabirds,1,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0,1,1,0,1,0,0,1,1,1,1,0,1,1,0,1,1,1,0,1,1,0,1,1,0,1,1,0
+Anna's Hummingbird,Hummingbirds,Caprimulgiformes,Trochilidae,Calypte anna,Hummingbirds,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,0,1,1
+Arctic Tern,Terns,Charadriiformes,Laridae,Sterna paradisaea,Terns,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Arctic Warbler,Old world warblers,Passeriformes,Phylloscopidae,Phylloscopus borealis,Small_birds,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Arizona Woodpecker,Woodpeckers,Piciformes,Picidae,Picoides arizonae,Woodpeckers,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ash-throated Flycatcher,Flycatchers,Passeriformes,Tyrannidae,Myiarchus cinerascens,Flycatchers,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1
+Atlantic Puffin,Auks,Charadriiformes,Alcidae,Fratercula arctica,Auks,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0
+Audubon's Oriole,Orioles,Passeriformes,Icteridae,Icterus graduacauda,Icterids,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Bachman's Sparrow,Sparrows,Passeriformes,Passerellidae,Peucaea aestivalis,Sparrows,1,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,1,0,0,1,0,1,1,0,0,0,0,1,0,1,1,0,1,1,0,0,0,1,0,1,1,0,0,1,0,1,0,0
+Baird's Sandpiper,Sandpipers,Charadriiformes,Scolopacidae,Calidris bairdii,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Baird's Sparrow,Sparrows,Passeriformes,Passerellidae,Ammodramus bairdii,Sparrows,0,0,1,0,1,1,0,0,0,0,1,0,0,0,1,1,0,1,0,0,0,1,0,0,1,1,1,0,0,1,1,0,1,1,1,0,0,0,0,1,0,1,1,0,0,0,1,1,1
+Bald Eagle,Eagles,Accipitriformes,Accipitridae,Haliaeetus leucocephalus,Raptors,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Baltimore Oriole,Orioles,Passeriformes,Icteridae,Icterus galbula,Icterids,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Band-tailed Pigeon,Pigeons,Columbiformes,Columbidae,Patagioenas fasciata,Doves,1,1,1,0,1,1,1,0,0,0,0,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,1,0,1,0,1,1
+Bank Swallow,Swallows,Passeriformes,Hirundinidae,Riparia riparia,Swallows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Barn Owl,Owls,Strigiformes,Tytonidae,Tyto alba,Owls,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Barn Swallow,Swallows,Passeriformes,Hirundinidae,Hirundo rustica,Swallows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Barnacle Goose,Geese,Anseriformes,Anatidae,Branta leucopsis,Geese,0,1,0,1,0,1,1,1,1,1,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,1,0,0,1,0,1,1,0,0,0,0
+Barred Owl,Owls,Strigiformes,Strigidae,Strix varia,Owls,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1
+Barrow's Goldeneye,Ducks,Anseriformes,Anatidae,Bucephala islandica,Sea_ducks,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,1
+Bay-breasted Warbler,Warblers,Passeriformes,Parulidae,Setophaga castanea,Setophaga,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bell's Sparrow,Sparrows,Passeriformes,Passerellidae,Artemisiospiza belli,Sparrows,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Bell's Vireo,Vireos,Passeriformes,Vireonidae,Vireo bellii,Vireos,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+Belted Kingfisher,Kingfishers,Coraciiformes,Alcedinidae,Megaceryle alcyon,Oddballs,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bendire's Thrasher,Thrashers,Passeriformes,Mimidae,Toxostoma bendirei,Mimids,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Bewick's Wren,Wrens,Passeriformes,Troglodytidae,Thryomanes bewickii,Wrens,1,0,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bicknell's Thrush,Thrushes,Passeriformes,Turdidae,Catharus bicknelli,Thrushes,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,1,0,0,0,0,1,1,0,1,0,0
+Black Guillemot,Auks,Charadriiformes,Alcidae,Cepphus grylle,Auks,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,1,0,0,0,0,1,1,0,0,0,0
+Black Oystercatcher,Shorebirds,Charadriiformes,Haematopodidae,Haematopus bachmani,Shorebirds,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Black Phoebe,Flycatchers,Passeriformes,Tyrannidae,Sayornis nigricans,Flycatchers,0,1,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,1,0,0,1
+Black Rail,Rails,Gruiformes,Rallidae,Laterallus jamaicensis,Rails,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0,0,1,0,1,1,1
+Black Rosy-Finch,Finches,Passeriformes,Fringillidae,Leucosticte atrata,Finches,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1
+Black Scoter,Ducks,Anseriformes,Anatidae,Melanitta americana,Sea_ducks,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Black Skimmer,Skimmers,Charadriiformes,Laridae,Rynchops niger,Terns,1,0,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,0,1,1,0,0,1,1,1,1,1,1,0,0,0,1,1,1,1,0,1,1,0,0,1,0,0,0,0
+Black Swift,Swifts,Caprimulgiformes,Apodidae,Cypseloides niger,Swallows,1,1,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1
+Black Tern,Terns,Charadriiformes,Laridae,Chlidonias niger,Terns,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Black Turnstone,Shorebirds,Charadriiformes,Scolopacidae,Arenaria melanocephala,Shorebirds,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,1,0
+Black Vulture,Vultures,Cathartiformes,Cathartidae,Coragyps atratus,Raptors,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0,1,1,0,1,1,1
+Black-and-white Warbler,Warblers,Passeriformes,Parulidae,Mniotilta varia,Warblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Black-backed Woodpecker,Woodpeckers,Piciformes,Picidae,Picoides arcticus,Woodpeckers,0,1,0,0,1,0,1,0,0,0,0,1,1,1,1,0,0,0,1,1,1,1,0,0,1,0,1,1,1,0,1,0,1,1,0,1,1,0,0,1,0,0,0,1,0,1,1,1,1
+Black-bellied Plover,Plovers,Charadriiformes,Charadriidae,Pluvialis squatarola,Shorebirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Black-bellied Whistling-Duck,Ducks,Anseriformes,Anatidae,Dendrocygna autumnalis,Sea_ducks,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0,1,1,0
+Black-billed Cuckoo,Cuckoos,Cuculiformes,Cuculidae,Coccyzus erythropthalmus,Oddballs,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+Black-billed Magpie,Magpies,Passeriformes,Corvidae,Pica hudsonia,Corvids,0,1,1,0,1,1,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,0,1,1,1,1,0,1,1,1,0,1,1,1,1,0,0,0,1,0,1,1,0,1,1,1,1,1
+Black-capped Chickadee,Chickadees,Passeriformes,Paridae,Poecile atricapillus,Chickadees,0,1,1,0,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1
+Black-capped Vireo,Vireos,Passeriformes,Vireonidae,Vireo atricapilla,Vireos,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Black-chinned Hummingbird,Hummingbirds,Caprimulgiformes,Trochilidae,Archilochus alexandri,Hummingbirds,1,0,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,0,1,1,0,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,1,0,1
+Black-chinned Sparrow,Sparrows,Passeriformes,Passerellidae,Spizella atrogularis,Sparrows,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0
+Black-crested Titmouse,Titmice,Passeriformes,Paridae,Baeolophus atricristatus,Chickadees,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Black-crowned Night Heron,Herons,Pelecaniformes,Ardeidae,Nycticorax nycticorax,Herons,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Black-footed Albatross,Seabirds,Procellariiformes,Diomedeidae,Phoebastria nigripes,Seabirds,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Black-headed Grosbeak,Grosbeaks,Passeriformes,Cardinalidae,Pheucticus melanocephalus,Finches,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Black-headed Gull,Gulls,Charadriiformes,Laridae,Chroicocephalus ridibundus,Gulls,0,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,1,1,1,1,1,1,0,1,1,0,1,1,1,0,1,1
+Black-legged Kittiwake,Gulls,Charadriiformes,Laridae,Rissa tridactyla,Gulls,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Black-necked Stilt,Shorebirds,Charadriiformes,Recurvirostridae,Himantopus mexicanus,Shorebirds,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+Black-tailed Gnatcatcher,Gnatcatchers,Passeriformes,Polioptilidae,Polioptila melanura,Small_birds,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Black-throated Blue Warbler,Warblers,Passeriformes,Parulidae,Setophaga caerulescens,Setophaga,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Black-throated Gray Warbler,Warblers,Passeriformes,Parulidae,Setophaga nigrescens,Setophaga,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1
+Black-throated Green Warbler,Warblers,Passeriformes,Parulidae,Setophaga virens,Setophaga,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Black-throated Sparrow,Sparrows,Passeriformes,Passerellidae,Amphispiza bilineata,Sparrows,0,0,1,0,1,1,0,0,0,1,0,1,1,0,1,1,0,0,1,1,1,1,0,1,1,1,1,0,1,1,0,0,1,1,1,1,0,0,0,0,1,1,1,0,1,1,0,1,1
+Black-whiskered Vireo,Vireos,Passeriformes,Vireonidae,Vireo altiloquus,Vireos,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,0,0,0
+Blackburnian Warbler,Warblers,Passeriformes,Parulidae,Setophaga fusca,Setophaga,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Blackpoll Warbler,Warblers,Passeriformes,Parulidae,Setophaga striata,Setophaga,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Blue Grosbeak,Grosbeaks,Passeriformes,Cardinalidae,Passerina caerulea,Finches,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Blue Jay,Jays,Passeriformes,Corvidae,Cyanocitta cristata,Corvids,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Blue-footed Booby,Seabirds,Suliformes,Sulidae,Sula nebouxii,Seabirds,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0
+Blue-gray Gnatcatcher,Gnatcatchers,Passeriformes,Polioptilidae,Polioptila caerulea,Small_birds,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Blue-headed Vireo,Vireos,Passeriformes,Vireonidae,Vireo solitarius,Vireos,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Blue-throated Mountain-gem,Hummingbirds,Caprimulgiformes,Trochilidae,Lampornis clemenciae,Hummingbirds,1,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Blue-winged Teal,Ducks,Anseriformes,Anatidae,Spatula discors,Dabblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Blue-winged Warbler,Warblers,Passeriformes,Parulidae,Vermivora cyanoptera,Warblers,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bluethroat,Thrushes,Passeriformes,Muscicapidae,Luscinia svecica,Thrushes,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Boat-tailed Grackle,Blackbirds,Passeriformes,Icteridae,Quiscalus major,Blackbirds,1,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,1,0,1,1,0,0,1,0,0,0,0
+Bobolink,Blackbirds,Passeriformes,Icteridae,Dolichonyx oryzivorus,Blackbirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bohemian Waxwing,Waxwings,Passeriformes,Bombycillidae,Bombycilla garrulus,Oddballs,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1
+Bonaparte's Gull,Gulls,Charadriiformes,Laridae,Chroicocephalus philadelphia,Gulls,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Boreal Chickadee,Chickadees,Passeriformes,Paridae,Poecile hudsonicus,Chickadees,0,1,0,0,0,0,1,1,0,0,0,1,0,1,1,0,0,0,1,1,1,1,0,0,1,0,0,1,1,0,1,0,1,1,0,0,1,0,0,0,0,0,0,1,1,1,1,1,0
+Boreal Owl,Owls,Strigiformes,Strigidae,Aegolius funereus,Owls,0,1,0,0,0,1,1,0,0,0,0,1,0,0,1,0,0,0,1,1,1,1,0,0,1,0,0,1,0,1,1,0,1,1,0,1,1,0,0,0,0,0,1,1,0,1,0,1,1
+Botteri's Sparrow,Sparrows,Passeriformes,Passerellidae,Peucaea botterii,Sparrows,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Brandt's Cormorant,Cormorants,Suliformes,Phalacrocoracidae,Phalacrocorax penicillatus,Seabirds,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Brant,Geese,Anseriformes,Anatidae,Branta bernicla,Geese,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Brewer's Blackbird,Blackbirds,Passeriformes,Icteridae,Euphagus cyanocephalus,Blackbirds,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Brewer's Sparrow,Sparrows,Passeriformes,Passerellidae,Spizella breweri,Sparrows,0,1,1,1,1,1,1,0,0,0,0,1,1,0,0,1,1,1,1,1,1,1,0,0,1,1,1,0,1,1,0,0,1,1,1,1,1,0,0,1,0,1,1,0,1,1,0,0,1
+Bridled Titmouse,Titmice,Passeriformes,Paridae,Baeolophus wollweberi,Chickadees,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Broad-billed Hummingbird,Hummingbirds,Caprimulgiformes,Trochilidae,Cynanthus latirostris,Hummingbirds,1,0,1,1,1,1,1,0,0,1,1,1,1,0,1,1,0,1,0,1,1,1,1,1,0,1,1,0,1,1,1,1,0,1,1,1,1,0,1,0,1,1,1,0,0,1,0,1,0
+Broad-tailed Hummingbird,Hummingbirds,Caprimulgiformes,Trochilidae,Selasphorus platycercus,Hummingbirds,1,0,1,1,1,1,0,1,0,1,1,1,1,0,0,1,0,1,1,0,0,0,1,1,1,1,1,0,1,1,0,1,1,0,1,1,0,0,1,1,1,1,1,0,0,1,0,0,1
+Broad-winged Hawk,Hawks,Accipitriformes,Accipitridae,Buteo platypterus,Hawks,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bronzed Cowbird,Blackbirds,Passeriformes,Icteridae,Molothrus aeneus,Blackbirds,1,0,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0,0,1,1,0,0,1,0,0,1,1,1,0,0,1,0,0,0,1,0,1,1,1,0,0,0,0,0,0
+Brown Booby,Seabirds,Suliformes,Sulidae,Sula leucogaster,Seabirds,1,1,1,1,1,1,1,1,0,1,1,0,0,1,1,0,1,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0,1,1,1,0,1,0
+Brown Creeper,Creepers,Passeriformes,Certhiidae,Certhia americana,Small_birds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Brown Pelican,Pelicans,Pelecaniformes,Pelecanidae,Pelecanus occidentalis,Seabirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Brown Thrasher,Thrashers,Passeriformes,Mimidae,Toxostoma rufum,Mimids,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Brown-capped Rosy-Finch,Finches,Passeriformes,Fringillidae,Leucosticte australis,Finches,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+Brown-headed Cowbird,Blackbirds,Passeriformes,Icteridae,Molothrus ater,Blackbirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Brown-headed Nuthatch,Nuthatches,Passeriformes,Sittidae,Sitta pusilla,Small_birds,1,0,0,1,0,0,0,1,0,1,1,0,1,0,0,1,1,1,0,0,0,0,1,1,0,1,0,0,1,0,1,1,0,1,1,0,1,0,1,0,1,1,0,0,1,0,0,1,0
+Buff-bellied Hummingbird,Hummingbirds,Caprimulgiformes,Trochilidae,Amazilia yucatanensis,Hummingbirds,1,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,1,0
+Buff-breasted Flycatcher,Flycatchers,Passeriformes,Tyrannidae,Empidonax fulvifrons,Empids,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Buff-breasted Sandpiper,Sandpipers,Charadriiformes,Scolopacidae,Calidris subruficollis,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bufflehead,Ducks,Anseriformes,Anatidae,Bucephala albeola,Sea_ducks,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bullock's Oriole,Orioles,Passeriformes,Icteridae,Icterus bullockii,Icterids,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1
+Burrowing Owl,Owls,Strigiformes,Strigidae,Athene cunicularia,Owls,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,0,1,1,0,1,1
+Bushtit,Bushtits,Passeriformes,Aegithalidae,Psaltriparus minimus,Small_birds,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,1,0,0,1
+Cackling Goose,Geese,Anseriformes,Anatidae,Branta hutchinsii,Geese,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cactus Wren,Wrens,Passeriformes,Troglodytidae,Campylorhynchus brunneicapillus,Wrens,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+California Condor,Vultures,Cathartiformes,Cathartidae,Gymnogyps californianus,Raptors,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1
+California Gnatcatcher,Gnatcatchers,Passeriformes,Polioptilidae,Polioptila californica,Small_birds,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+California Gull,Gulls,Charadriiformes,Laridae,Larus californicus,Gulls,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,0,1,1
+California Quail,Game birds,Galliformes,Odontophoridae,Callipepla californica,Grouse,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0
+California Scrub-Jay,Jays,Passeriformes,Corvidae,Aphelocoma californica,Corvids,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+California Thrasher,Thrashers,Passeriformes,Mimidae,Toxostoma redivivum,Mimids,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+California Towhee,Towhees,Passeriformes,Passerellidae,Melozone crissalis,Open_areas,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Calliope Hummingbird,Hummingbirds,Caprimulgiformes,Trochilidae,Selasphorus calliope,Hummingbirds,1,1,1,1,1,1,1,1,0,1,1,1,0,1,0,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,1
+Canada Goose,Geese,Anseriformes,Anatidae,Branta canadensis,Geese,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Canada Jay,Jays,Passeriformes,Corvidae,Perisoreus canadensis,Corvids,0,1,1,0,1,1,1,0,0,0,0,1,0,0,1,0,0,0,1,1,1,1,0,0,1,1,0,1,0,1,1,0,1,0,0,1,0,0,0,1,0,0,1,1,0,1,0,1,1
+Canada Warbler,Warblers,Passeriformes,Parulidae,Cardellina canadensis,Warblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Canvasback,Ducks,Anseriformes,Anatidae,Aythya valisineria,Dabblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Canyon Towhee,Towhees,Passeriformes,Passerellidae,Melozone fusca,Open_areas,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Canyon Wren,Wrens,Passeriformes,Troglodytidae,Catherpes mexicanus,Wrens,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,1,0,1,1,0,0,0,1,0,1,1,0,0,1,0,0,1
+Cape May Warbler,Warblers,Passeriformes,Parulidae,Setophaga tigrina,Setophaga,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Carolina Chickadee,Chickadees,Passeriformes,Paridae,Poecile carolinensis,Chickadees,1,0,0,1,0,0,0,1,1,1,1,0,1,1,0,1,1,1,0,0,1,0,1,1,0,0,0,0,1,0,0,1,0,1,1,0,1,0,1,0,1,1,0,0,1,0,1,0,0
+Carolina Wren,Wrens,Passeriformes,Troglodytidae,Thryothorus ludovicianus,Wrens,1,0,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0,1,1,1
+Caspian Tern,Terns,Charadriiformes,Laridae,Hydroprogne caspia,Terns,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cassia Crossbill,Finches,Passeriformes,Fringillidae,Loxia sinesciuris,Finches,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Cassin's Auklet,Auks,Charadriiformes,Alcidae,Ptychoramphus aleuticus,Auks,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Cassin's Finch,Finches,Passeriformes,Fringillidae,Haemorhous cassinii,Finches,0,1,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,1,0,0,1,1,1,0,0,1,0,0,1,0,1,1,0,0,0,1,0,1,1,0,0,1,0,0,1
+Cassin's Kingbird,Flycatchers,Passeriformes,Tyrannidae,Tyrannus vociferans,Flycatchers,1,0,1,1,1,1,0,0,0,1,0,1,1,0,0,1,0,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,0,0,0,1,1,1,1,0,0,0,0,1,1
+Cassin's Sparrow,Sparrows,Passeriformes,Passerellidae,Peucaea cassinii,Sparrows,0,0,1,1,1,1,0,0,0,0,0,1,1,1,0,1,0,1,0,1,0,1,0,0,1,1,1,1,0,1,1,1,0,1,1,1,0,0,0,1,0,1,1,0,0,1,0,0,1
+Cassin's Vireo,Vireos,Passeriformes,Vireonidae,Vireo cassinii,Vireos,0,1,1,0,1,1,0,0,0,0,0,1,1,0,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,1,0,1,1,1,0,1,0,0,1
+Cave Swallow,Swallows,Passeriformes,Hirundinidae,Petrochelidon fulva,Swallows,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0,1,1,0,1,1,0
+Cedar Waxwing,Waxwings,Passeriformes,Bombycillidae,Bombycilla cedrorum,Oddballs,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cerulean Warbler,Warblers,Passeriformes,Parulidae,Setophaga cerulea,Setophaga,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0,1,1,0
+Chestnut-backed Chickadee,Chickadees,Passeriformes,Paridae,Poecile rufescens,Chickadees,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Chestnut-collared Longspur,Longspurs,Passeriformes,Calcariidae,Calcarius ornatus,Open_areas,1,1,1,1,1,1,1,0,0,1,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,0,1,1,0,1,1
+Chestnut-sided Warbler,Warblers,Passeriformes,Parulidae,Setophaga pensylvanica,Setophaga,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Chihuahuan Raven,Ravens,Passeriformes,Corvidae,Corvus cryptoleucus,Corvids,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Chimney Swift,Swifts,Caprimulgiformes,Apodidae,Chaetura pelagica,Swallows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+Chipping Sparrow,Sparrows,Passeriformes,Passerellidae,Spizella passerina,Sparrows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Chuck-will's-widow,Nightjars,Caprimulgiformes,Caprimulgidae,Antrostomus carolinensis,Swallows,1,0,0,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,0,0,1,0,1,1,0
+Chukar,Game birds,Galliformes,Phasianidae,Alectoris chukar,Grouse,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1
+Cinnamon Teal,Ducks,Anseriformes,Anatidae,Spatula cyanoptera,Dabblers,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+Clapper Rail,Rails,Gruiformes,Rallidae,Rallus crepitans,Rails,1,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,1,0,1,1,1,1,1,0,0,0,0,1,1,1,0,1,1,0,0,1,0,0,0,0
+Clark's Grebe,Grebes,Podicipediformes,Podicipedidae,Aechmophorus clarkii,Grebes,0,1,1,0,1,1,0,0,0,0,0,1,0,0,1,1,0,0,1,0,0,1,0,1,1,1,1,0,0,1,1,1,1,0,1,1,0,0,0,1,1,1,1,0,1,1,0,1,1
+Clark's Nutcracker,Nutcrackers,Passeriformes,Corvidae,Nucifraga columbiana,Corvids,1,1,1,1,1,1,0,0,0,0,0,1,1,0,1,1,0,1,0,0,0,1,0,1,1,1,1,0,0,1,0,0,1,0,1,1,0,0,0,1,0,1,1,0,0,1,0,1,1
+Clay-colored Sparrow,Sparrows,Passeriformes,Passerellidae,Spizella pallida,Sparrows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cliff Swallow,Swallows,Passeriformes,Hirundinidae,Petrochelidon pyrrhonota,Swallows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Common Black Hawk,Hawks,Accipitriformes,Accipitridae,Buteogallus anthracinus,Hawks,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Common Eider,Ducks,Anseriformes,Anatidae,Somateria mollissima,Sea_ducks,0,1,0,0,1,0,1,1,0,1,1,0,1,0,1,0,0,0,1,1,1,1,0,0,0,1,0,1,1,0,1,1,1,1,0,1,1,1,1,0,1,1,0,1,1,1,0,1,0
+Common Gallinule,Rails,Gruiformes,Rallidae,Gallinula galeata,Rails,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+Common Goldeneye,Ducks,Anseriformes,Anatidae,Bucephala clangula,Sea_ducks,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Common Grackle,Blackbirds,Passeriformes,Icteridae,Quiscalus quiscula,Blackbirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Common Ground Dove,Doves,Columbiformes,Columbidae,Columbina passerina,Doves,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,0,0,1,0,1,1,1,1,0,1,1,1,1,0,1,0,1,1,1,0,1,0,0,1,0
+Common Loon,Loons,Gaviiformes,Gaviidae,Gavia immer,Grebes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Common Merganser,Ducks,Anseriformes,Anatidae,Mergus merganser,Sea_ducks,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Common Murre,Auks,Charadriiformes,Alcidae,Uria aalge,Auks,0,1,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,1,0,1,1,0,0,0,0,1,1,1,0,0,0
+Common Nighthawk,Nightjars,Caprimulgiformes,Caprimulgidae,Chordeiles minor,Swallows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Common Pauraque,Nightjars,Caprimulgiformes,Caprimulgidae,Nyctidromus albicollis,Swallows,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Common Poorwill,Nightjars,Caprimulgiformes,Caprimulgidae,Phalaenoptilus nuttallii,Swallows,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,1,0,1,1,0,0,0,1,0,1,1,0,0,1,0,0,1
+Common Raven,Ravens,Passeriformes,Corvidae,Corvus corax,Corvids,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Common Redpoll,Finches,Passeriformes,Fringillidae,Acanthis flammea,Finches,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Common Tern,Terns,Charadriiformes,Laridae,Sterna hirundo,Terns,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Common Yellowthroat,Warblers,Passeriformes,Parulidae,Geothlypis trichas,Warblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Connecticut Warbler,Warblers,Passeriformes,Parulidae,Oporornis agilis,Warblers,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1
+Cooper's Hawk,Accipiters,Accipitriformes,Accipitridae,Accipiter cooperii,Raptors,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Costa's Hummingbird,Hummingbirds,Caprimulgiformes,Trochilidae,Calypte costae,Hummingbirds,1,1,1,0,1,1,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,1,1,1,0,0,1,0,0,0,0,1,1,0,0,0,1,0,1,1,0,0,1,0,0,0
+Couch's Kingbird,Flycatchers,Passeriformes,Tyrannidae,Tyrannus couchii,Flycatchers,1,0,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+Crested Caracara,Caracaras,Falconiformes,Falconidae,Caracara cheriway,Hawks,1,0,1,1,1,1,0,1,0,1,1,1,1,0,1,1,0,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,1,1,1,1,1,0
+Crissal Thrasher,Thrashers,Passeriformes,Mimidae,Toxostoma crissale,Mimids,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Curve-billed Thrasher,Thrashers,Passeriformes,Mimidae,Toxostoma curvirostre,Mimids,0,0,1,0,1,1,0,0,0,1,0,1,1,0,1,1,0,1,0,0,0,1,0,0,1,1,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,1,1
+Dark-eyed Junco,Sparrows,Passeriformes,Passerellidae,Junco hyemalis,Sparrows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Dickcissel,Dickcissel,Passeriformes,Cardinalidae,Spiza americana,Open_areas,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Double-crested Cormorant,Cormorants,Suliformes,Phalacrocoracidae,Phalacrocorax auritus,Seabirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Dovekie,Auks,Charadriiformes,Alcidae,Alle alle,Auks,0,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,1,0,0,0,0,1,1,0,0,1,0
+Downy Woodpecker,Woodpeckers,Piciformes,Picidae,Picoides pubescens,Woodpeckers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Dunlin,Sandpipers,Charadriiformes,Scolopacidae,Calidris alpina,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Dusky Flycatcher,Flycatchers,Passeriformes,Tyrannidae,Empidonax oberholseri,Empids,1,1,1,0,1,1,0,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,1,1,1,0,0,0,1,0,1,1,0,1,1,0,1,1
+Dusky Grouse,Game birds,Galliformes,Phasianidae,Dendragapus obscurus,Grouse,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1
+Eared Grebe,Grebes,Podicipediformes,Podicipedidae,Podiceps nigricollis,Grebes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Eastern Bluebird,Thrushes,Passeriformes,Turdidae,Sialia sialis,Thrushes,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Eastern Kingbird,Flycatchers,Passeriformes,Tyrannidae,Tyrannus tyrannus,Flycatchers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Eastern Meadowlark,Meadowlarks,Passeriformes,Icteridae,Sturnella magna,Icterids,1,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1
+Eastern Phoebe,Flycatchers,Passeriformes,Tyrannidae,Sayornis phoebe,Flycatchers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Eastern Screech-Owl,Owls,Strigiformes,Strigidae,Megascops asio,Owls,1,0,0,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0,1,1,1
+Eastern Towhee,Towhees,Passeriformes,Passerellidae,Pipilo erythrophthalmus,Open_areas,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1
+Eastern Whip-poor-will,Nightjars,Caprimulgiformes,Caprimulgidae,Antrostomus vociferus,Swallows,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,0
+Eastern Wood-pewee,Flycatchers,Passeriformes,Tyrannidae,Contopus virens,Flycatchers,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1
+Elegant Tern,Terns,Charadriiformes,Laridae,Thalasseus elegans,Terns,0,0,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0
+Elegant Trogon,Trogons,Trogoniformes,Trogonidae,Trogon elegans,Oddballs,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Emperor Goose,Geese,Anseriformes,Anatidae,Anser canagicus,Geese,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Eurasian Collared-Dove,Doves,Columbiformes,Columbidae,Streptopelia decaocto,Doves,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Eurasian Jackdaw,Crows,Passeriformes,Corvidae,Corvus monedula,Corvids,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Eurasian Tree Sparrow,Old world sparrows,Passeriformes,Passeridae,Passer montanus,Oddballs,0,0,0,1,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+Eurasian Wigeon,Ducks,Anseriformes,Anatidae,Mareca penelope,Dabblers,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+European Starling,Starlings,Passeriformes,Sturnidae,Sturnus vulgaris,Oddballs,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Evening Grosbeak,Grosbeaks,Passeriformes,Fringillidae,Coccothraustes vespertinus,Finches,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ferruginous Hawk,Hawks,Accipitriformes,Accipitridae,Buteo regalis,Hawks,1,0,1,1,1,1,0,0,0,1,0,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,0,0,1,1,0,1,1,1,1,1,0,0,1,1,1,1,0,1,1,1,1,1
+Ferruginous Pygmy-Owl,Owls,Strigiformes,Strigidae,Glaucidium brasilianum,Owls,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Field Sparrow,Sparrows,Passeriformes,Passerellidae,Spizella pusilla,Sparrows,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Fish Crow,Crows,Passeriformes,Corvidae,Corvus ossifragus,Corvids,1,0,0,1,0,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,0,1,0,1,1,0,1,1,0,1,1,0,1,1,1,0,1,1,0,1,1,0,1,0,0
+Flammulated Owl,Owls,Strigiformes,Strigidae,Psiloscops flammeolus,Owls,1,1,1,0,1,1,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1
+Florida Scrub-Jay,Jays,Passeriformes,Corvidae,Aphelocoma coerulescens,Corvids,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Fork-tailed Storm-Petrel,Seabirds,Procellariiformes,Hydrobatidae,Oceanodroma furcata,Seabirds,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Forster's Tern,Terns,Charadriiformes,Laridae,Sterna forsteri,Terns,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Fox Sparrow,Sparrows,Passeriformes,Passerellidae,Passerella iliaca,Sparrows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Franklin's Gull,Gulls,Charadriiformes,Laridae,Leucophaeus pipixcan,Gulls,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Fulvous Whistling-Duck,Ducks,Anseriformes,Anatidae,Dendrocygna bicolor,Sea_ducks,1,0,1,1,1,0,1,1,0,1,1,0,1,1,1,1,1,1,0,1,0,0,1,1,0,1,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,0
+Gadwall,Ducks,Anseriformes,Anatidae,Mareca strepera,Dabblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gambel's Quail,Game birds,Galliformes,Odontophoridae,Callipepla gambelii,Grouse,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Gila Woodpecker,Woodpeckers,Piciformes,Picidae,Melanerpes uropygialis,Woodpeckers,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gilded Flicker,Woodpeckers,Piciformes,Picidae,Colaptes chrysoides,Woodpeckers,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Glaucous Gull,Gulls,Charadriiformes,Laridae,Larus hyperboreus,Gulls,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Glaucous-winged Gull,Gulls,Charadriiformes,Laridae,Larus glaucescens,Gulls,1,1,1,0,1,1,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,0,1,1,1,1,1,0,1,1,0,1,1,0,1,1,0,0,1,0,1,1,0,0,1,0,1,0
+Glossy Ibis,Ibis,Pelecaniformes,Threskiornithidae,Plegadis falcinellus,Cranes,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Golden Eagle,Eagles,Accipitriformes,Accipitridae,Aquila chrysaetos,Raptors,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Golden-cheeked Warbler,Warblers,Passeriformes,Parulidae,Setophaga chrysoparia,Setophaga,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Golden-crowned Kinglet,Kinglets,Passeriformes,Regulidae,Regulus satrapa,Small_birds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Golden-crowned Sparrow,Sparrows,Passeriformes,Passerellidae,Zonotrichia atricapilla,Sparrows,0,1,1,0,1,1,1,0,0,1,0,1,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,0,1,1
+Golden-fronted Woodpecker,Woodpeckers,Piciformes,Picidae,Melanerpes aurifrons,Woodpeckers,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Golden-winged Warbler,Warblers,Passeriformes,Parulidae,Vermivora chrysoptera,Warblers,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Grace's Warbler,Warblers,Passeriformes,Parulidae,Setophaga graciae,Setophaga,0,0,1,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Grasshopper Sparrow,Sparrows,Passeriformes,Passerellidae,Ammodramus savannarum,Sparrows,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gray Catbird,Catbirds,Passeriformes,Mimidae,Dumetella carolinensis,Mimids,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gray Flycatcher,Flycatchers,Passeriformes,Tyrannidae,Empidonax wrightii,Empids,0,0,1,0,1,1,1,1,0,0,0,1,0,0,0,1,0,1,1,1,0,0,1,0,1,1,1,0,0,1,0,1,0,1,1,1,0,0,0,0,0,1,1,0,0,1,0,1,1
+Gray Hawk,Hawks,Accipitriformes,Accipitridae,Buteo plagiatus,Hawks,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Gray Heron,Herons,Pelecaniformes,Ardeidae,Ardea cinerea,Herons,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Gray Kingbird,Flycatchers,Passeriformes,Tyrannidae,Tyrannus dominicensis,Flycatchers,1,0,0,1,0,0,1,1,0,1,1,0,1,1,0,0,1,1,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,1,0,0,1,1,1,0,0,1,0,0,1,0,0,0,0
+Gray Partridge,Game birds,Galliformes,Phasianidae,Perdix perdix,Grouse,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,1,0,0,1,0,1,1
+Gray Vireo,Vireos,Passeriformes,Vireonidae,Vireo vicinior,Vireos,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1
+Gray-cheeked Thrush,Thrushes,Passeriformes,Turdidae,Catharus minimus,Thrushes,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1
+Gray-crowned Rosy-Finch,Finches,Passeriformes,Fringillidae,Leucosticte tephrocotis,Finches,0,1,1,1,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,1,0,0,1,1,1,0,0,1,1,0,1,1,0,1,1,0,0,1,0,1,1,0,0,1,0,1,1
+Graylag Goose,Geese,Anseriformes,Anatidae,Anser anser,Geese,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Great Black-backed Gull,Gulls,Charadriiformes,Laridae,Larus marinus,Gulls,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+Great Blue Heron,Herons,Pelecaniformes,Ardeidae,Ardea herodias,Herons,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Great Cormorant,Cormorants,Suliformes,Phalacrocoracidae,Phalacrocorax carbo,Seabirds,1,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,1,0,0,0,0,1,1,0,1,0,0
+Great Crested Flycatcher,Flycatchers,Passeriformes,Tyrannidae,Myiarchus crinitus,Flycatchers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+Great Egret,Herons,Pelecaniformes,Ardeidae,Ardea alba,Herons,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Great Gray Owl,Owls,Strigiformes,Strigidae,Strix nebulosa,Owls,0,1,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,1,1,1,1,0,0,1,1,0,1,0,0,1,0,1,1,0,1,1,0,0,1,0,0,1,1,0,1,0,1,1
+Great Horned Owl,Owls,Strigiformes,Strigidae,Bubo virginianus,Owls,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Great Kiskadee,Flycatchers,Passeriformes,Tyrannidae,Pitangus sulphuratus,Flycatchers,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0
+Great Shearwater,Seabirds,Procellariiformes,Procellariidae,Ardenna gravis,Seabirds,1,1,0,0,1,0,1,1,0,1,1,0,0,0,0,0,1,1,1,1,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,1,1,1,1,0,1,1,0,1,1,1,0,0,0
+Great-tailed Grackle,Blackbirds,Passeriformes,Icteridae,Quiscalus mexicanus,Blackbirds,1,0,1,1,1,1,0,0,0,1,0,1,1,1,1,1,0,1,0,1,0,1,0,1,1,1,1,0,0,1,0,0,1,1,1,1,0,0,0,1,1,1,1,0,0,1,0,1,1
+Greater Pewee,Flycatchers,Passeriformes,Tyrannidae,Contopus pertinax,Flycatchers,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+Greater Prairie-Chicken,Game birds,Galliformes,Phasianidae,Tympanuchus cupido,Grouse,0,0,0,1,0,1,1,0,0,0,0,0,1,1,1,1,1,0,0,1,1,1,0,1,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Greater Roadrunner,Cuckoos,Cuculiformes,Cuculidae,Geococcyx californianus,Oddballs,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0
+Greater Sage-Grouse,Game birds,Galliformes,Phasianidae,Centrocercus urophasianus,Grouse,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,1
+Greater Scaup,Ducks,Anseriformes,Anatidae,Aythya marila,Dabblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Greater White-fronted Goose,Geese,Anseriformes,Anatidae,Anser albifrons,Geese,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Greater Yellowlegs,Sandpipers,Charadriiformes,Scolopacidae,Tringa melanoleuca,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Green Heron,Herons,Pelecaniformes,Ardeidae,Butorides virescens,Herons,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Green Jay,Jays,Passeriformes,Corvidae,Cyanocorax yncas,Corvids,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Green Kingfisher,Kingfishers,Coraciiformes,Alcedinidae,Chloroceryle americana,Oddballs,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Green-tailed Towhee,Towhees,Passeriformes,Passerellidae,Pipilo chlorurus,Open_areas,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1
+Green-winged Teal,Ducks,Anseriformes,Anatidae,Anas crecca,Dabblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Groove-billed Ani,Cuckoos,Cuculiformes,Cuculidae,Crotophaga sulcirostris,Oddballs,1,0,1,1,1,1,0,0,0,1,0,0,1,1,1,1,1,1,0,0,0,1,1,1,0,1,1,0,1,1,0,1,1,1,1,0,0,0,1,0,1,1,0,0,1,0,0,1,1
+Gull-billed Tern,Terns,Charadriiformes,Laridae,Gelochelidon nilotica,Terns,1,0,0,1,1,0,1,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,1,0,0,1,0
+Gunnison Sage-Grouse,Game birds,Galliformes,Phasianidae,Centrocercus minimus,Grouse,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Gyrfalcon,Falcons,Falconiformes,Falconidae,Falco rusticolus,Hawks,0,1,0,0,1,1,1,1,0,0,0,1,1,1,1,1,0,0,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1
+Hairy Woodpecker,Woodpeckers,Piciformes,Picidae,Picoides villosus,Woodpeckers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Hammond's Flycatcher,Flycatchers,Passeriformes,Tyrannidae,Empidonax hammondii,Empids,1,1,1,0,1,1,0,1,0,1,1,1,0,0,0,1,0,1,0,1,0,0,0,0,1,1,1,0,1,1,1,1,1,0,1,1,1,1,0,1,0,1,1,0,0,1,0,1,1
+Harlequin Duck,Ducks,Anseriformes,Anatidae,Histrionicus histrionicus,Sea_ducks,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Harris's Hawk,Hawks,Accipitriformes,Accipitridae,Parabuteo unicinctus,Hawks,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1
+Harris's Sparrow,Sparrows,Passeriformes,Passerellidae,Zonotrichia querula,Sparrows,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1
+Heermann's Gull,Gulls,Charadriiformes,Laridae,Larus heermanni,Gulls,0,1,1,0,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0,1,1,0,0,0,1,0,1,0,1,1,1,1,0,1,1,1,0,1,1,0,0,1,1,0,1,1,0,0,1
+Henslow's Sparrow,Sparrows,Passeriformes,Passerellidae,Ammodramus henslowii,Sparrows,1,0,0,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,0,1,1,0
+Hepatic Tanager,Cardinals,Passeriformes,Cardinalidae,Piranga flava,Finches,0,0,1,0,1,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,1,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Hermit Thrush,Thrushes,Passeriformes,Turdidae,Catharus guttatus,Thrushes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Hermit Warbler,Warblers,Passeriformes,Parulidae,Setophaga occidentalis,Setophaga,0,1,1,0,1,1,1,0,0,1,0,1,1,0,0,0,0,1,1,1,0,1,0,1,0,1,1,0,0,1,1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,1,0,1,1
+Herring Gull,Gulls,Charadriiformes,Laridae,Larus argentatus,Gulls,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Hoary Redpoll,Finches,Passeriformes,Fringillidae,Acanthis hornemanni,Finches,0,1,0,0,0,1,1,0,0,0,0,1,1,1,1,0,0,0,1,1,1,1,0,1,1,1,0,1,1,0,1,0,1,1,0,1,1,1,0,1,0,0,1,1,1,1,1,1,1
+Hooded Merganser,Ducks,Anseriformes,Anatidae,Lophodytes cucullatus,Sea_ducks,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Hooded Oriole,Orioles,Passeriformes,Icteridae,Icterus cucullatus,Icterids,1,1,1,0,1,1,0,0,0,1,0,1,0,0,1,1,1,1,0,0,1,0,1,0,1,1,1,0,0,1,0,1,0,1,1,1,0,0,0,0,1,1,1,0,0,1,0,1,0
+Hooded Warbler,Warblers,Passeriformes,Parulidae,Setophaga citrina,Setophaga,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Hook-billed Kite,Kites,Accipitriformes,Accipitridae,Chondrohierax uncinatus,Raptors,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Horned Grebe,Grebes,Podicipediformes,Podicipedidae,Podiceps auritus,Grebes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Horned Lark,Larks,Passeriformes,Alaudidae,Eremophila alpestris,Open_areas,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Horned Puffin,Auks,Charadriiformes,Alcidae,Fratercula corniculata,Auks,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+House Finch,Finches,Passeriformes,Fringillidae,Haemorhous mexicanus,Finches,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+House Sparrow,Old world sparrows,Passeriformes,Passeridae,Passer domesticus,Oddballs,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+House Wren,Wrens,Passeriformes,Troglodytidae,Troglodytes aedon,Wrens,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Hudsonian Godwit,Shorebirds,Charadriiformes,Scolopacidae,Limosa haemastica,Shorebirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Hutton's Vireo,Vireos,Passeriformes,Vireonidae,Vireo huttoni,Vireos,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0
+Iceland Gull,Gulls,Charadriiformes,Laridae,Larus glaucoides,Gulls,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Inca Dove,Doves,Columbiformes,Columbidae,Columbina inca,Doves,1,0,1,1,1,1,0,0,0,1,1,0,1,0,1,1,1,1,0,0,1,1,1,1,1,1,1,0,0,1,1,0,1,0,1,0,0,0,0,0,1,1,1,0,0,0,1,1,0
+Indigo Bunting,Buntings,Passeriformes,Cardinalidae,Passerina cyanea,Open_areas,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ivory Gull,Gulls,Charadriiformes,Laridae,Pagophila eburnea,Gulls,1,1,1,0,1,1,1,0,0,0,1,0,1,0,1,0,0,0,1,1,1,1,0,1,1,0,0,1,1,0,1,0,0,1,0,0,0,1,0,1,1,0,0,1,0,1,0,1,0
+Ivory-billed Woodpecker,Woodpeckers,Piciformes,Picidae,Campephilus principalis,Woodpeckers,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Juniper Titmouse,Titmice,Passeriformes,Paridae,Baeolophus ridgwayi,Chickadees,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1
+Kentucky Warbler,Warblers,Passeriformes,Parulidae,Geothlypis formosa,Warblers,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+Killdeer,Plovers,Charadriiformes,Charadriidae,Charadrius vociferus,Shorebirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+King Eider,Ducks,Anseriformes,Anatidae,Somateria spectabilis,Sea_ducks,0,1,0,0,1,0,1,1,0,1,1,0,1,1,1,0,1,1,1,1,1,1,0,0,0,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0,1,1,0,1,1,1,1,1,1
+King Rail,Rails,Gruiformes,Rallidae,Rallus elegans,Rails,1,0,0,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0,1,1,0
+Kirtland's Warbler,Warblers,Passeriformes,Parulidae,Setophaga kirtlandii,Setophaga,1,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,1,1,0,1,0,0,0,0,1,0,1,1,0,1,0,0,1,0,1,0,1,0,0,0,1,0,1,1,0
+Ladder-backed Woodpecker,Woodpeckers,Piciformes,Picidae,Picoides scalaris,Woodpeckers,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Lapland Longspur,Longspurs,Passeriformes,Calcariidae,Calcarius lapponicus,Open_areas,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lark Bunting,Sparrows,Passeriformes,Passerellidae,Calamospiza melanocorys,Sparrows,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lark Sparrow,Sparrows,Passeriformes,Passerellidae,Chondestes grammacus,Sparrows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Laughing Gull,Gulls,Charadriiformes,Laridae,Leucophaeus atricilla,Gulls,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lawrence's Goldfinch,Finches,Passeriformes,Fringillidae,Spinus lawrencei,Finches,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,1,0,0,1
+Laysan Albatross,Seabirds,Procellariiformes,Diomedeidae,Phoebastria immutabilis,Seabirds,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Lazuli Bunting,Buntings,Passeriformes,Cardinalidae,Passerina amoena,Open_areas,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,0,1,1,0,1,1
+Least Bittern,Herons,Pelecaniformes,Ardeidae,Ixobrychus exilis,Cranes,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+Least Flycatcher,Flycatchers,Passeriformes,Tyrannidae,Empidonax minimus,Empids,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Least Grebe,Grebes,Podicipediformes,Podicipedidae,Tachybaptus dominicus,Grebes,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Least Sandpiper,Sandpipers,Charadriiformes,Scolopacidae,Calidris minutilla,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Least Tern,Terns,Charadriiformes,Laridae,Sternula antillarum,Terns,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+Leconte's Sparrow,Sparrows,Passeriformes,Passerellidae,Ammodramus leconteii,Sparrows,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Leconte's Thrasher,Thrashers,Passeriformes,Mimidae,Toxostoma lecontei,Mimids,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Lesser Black-Backed Gull,Gulls,Charadriiformes,Laridae,Larus fuscus,Gulls,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lesser Goldfinch,Finches,Passeriformes,Fringillidae,Spinus psaltria,Finches,1,0,1,1,1,1,0,1,0,1,0,1,1,0,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,1,0,1,1,0,1,1,1,0,0,1,1,1,1,0,1,1,0,1,1
+Lesser Nighthawk,Nightjars,Caprimulgiformes,Caprimulgidae,Chordeiles acutipennis,Swallows,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,1,0,0,1,1,0,0,0,1,0,1
+Lesser Prairie-Chicken,Game birds,Galliformes,Phasianidae,Tympanuchus pallidicinctus,Grouse,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Lesser Scaup,Ducks,Anseriformes,Anatidae,Aythya affinis,Dabblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lesser Yellowlegs,Sandpipers,Charadriiformes,Scolopacidae,Tringa flavipes,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lewis's Woodpecker,Woodpeckers,Piciformes,Picidae,Melanerpes lewis,Woodpeckers,0,1,1,1,1,1,0,0,0,0,0,1,1,0,1,1,0,0,0,1,1,1,0,1,1,1,1,0,0,1,1,0,1,0,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1
+Limpkin,Limpkins,Gruiformes,Aramidae,Aramus guarauna,Cranes,1,0,0,1,0,1,0,0,0,1,1,0,1,1,1,1,1,1,0,0,1,1,1,1,0,1,0,0,1,0,1,1,0,1,1,0,1,0,1,0,1,1,0,0,1,0,1,1,0
+Lincoln's Sparrow,Sparrows,Passeriformes,Passerellidae,Melospiza lincolnii,Sparrows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Little Blue Heron,Herons,Pelecaniformes,Ardeidae,Egretta caerulea,Herons,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Little Gull,Gulls,Charadriiformes,Laridae,Hydrocoloeus minutus,Gulls,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Loggerhead Shrike,Shrikes,Passeriformes,Laniidae,Lanius ludovicianus,Oddballs,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Long-billed Curlew,Shorebirds,Charadriiformes,Scolopacidae,Numenius americanus,Shorebirds,1,1,1,1,1,1,1,0,0,1,1,1,1,0,1,1,0,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,0,1,1
+Long-billed Dowitcher,Sandpipers,Charadriiformes,Scolopacidae,Limnodromus scolopaceus,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Long-billed Thrasher,Thrashers,Passeriformes,Mimidae,Toxostoma longirostre,Mimids,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Long-eared Owl,Owls,Strigiformes,Strigidae,Asio otus,Owls,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Long-tailed Duck,Ducks,Anseriformes,Anatidae,Clangula hyemalis,Sea_ducks,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Long-tailed Jaeger,Jaegers,Charadriiformes,Stercorariidae,Stercorarius longicaudus,Seabirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Louisiana Waterthrush,Warblers,Passeriformes,Parulidae,Parkesia motacilla,Warblers,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0
+Lucifer Hummingbird,Hummingbirds,Caprimulgiformes,Trochilidae,Calothorax lucifer,Hummingbirds,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Lucy's Warbler,Warblers,Passeriformes,Parulidae,Oreothlypis luciae,Warblers,0,1,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,1,0,0,0
+Macgillivray's Warbler,Warblers,Passeriformes,Parulidae,Geothlypis tolmiei,Warblers,1,1,1,0,1,1,1,0,1,1,1,1,1,0,1,1,0,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1
+Magnificent Frigatebird,Seabirds,Suliformes,Fregatidae,Fregata magnificens,Seabirds,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,0,1,1,1,1,0
+Magnolia Warbler,Warblers,Passeriformes,Parulidae,Setophaga magnolia,Setophaga,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mallard,Ducks,Anseriformes,Anatidae,Anas platyrhynchos,Dabblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mangrove Cuckoo,Cuckoos,Cuculiformes,Cuculidae,Coccyzus minor,Oddballs,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Marbled Godwit,Shorebirds,Charadriiformes,Scolopacidae,Limosa fedoa,Shorebirds,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Marbled Murrelet,Auks,Charadriiformes,Alcidae,Brachyramphus marmoratus,Auks,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Marsh Wren,Wrens,Passeriformes,Troglodytidae,Cistothorus palustris,Wrens,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Masked Booby,Seabirds,Suliformes,Sulidae,Sula dactylatra,Seabirds,1,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0
+Merlin,Falcons,Falconiformes,Falconidae,Falco columbarius,Hawks,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mexican Jay,Jays,Passeriformes,Corvidae,Aphelocoma wollweberi,Corvids,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Mexican Whip-poor-will,Nightjars,Caprimulgiformes,Caprimulgidae,Antrostomus arizonae,Swallows,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Mississippi Kite,Kites,Accipitriformes,Accipitridae,Ictinia mississippiensis,Raptors,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,0,1,0,1,1,1
+Monk Parakeet,Parrots,Psittaciformes,Psittacidae,Myiopsitta monachus,Mimids,0,0,0,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Montezuma Quail,Game birds,Galliformes,Odontophoridae,Cyrtonyx montezumae,Grouse,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Mottled Duck,Ducks,Anseriformes,Anatidae,Anas fulvigula,Dabblers,1,0,0,1,0,1,0,0,0,1,1,0,1,1,1,1,1,1,0,1,0,1,1,1,0,1,0,0,0,0,1,1,1,0,1,0,1,0,1,1,1,1,0,0,1,0,0,0,1
+Mountain Bluebird,Thrushes,Passeriformes,Turdidae,Sialia currucoides,Thrushes,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1
+Mountain Chickadee,Chickadees,Passeriformes,Paridae,Poecile gambeli,Chickadees,0,1,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,1,1,0,0,0,1,0,1,1,0,0,1,0,0,1
+Mountain Plover,Plovers,Charadriiformes,Charadriidae,Charadrius montanus,Shorebirds,1,0,1,0,1,1,0,0,0,1,0,1,1,1,0,1,0,1,0,1,0,0,1,0,1,1,1,0,1,1,0,1,1,0,1,1,0,0,1,0,0,1,1,0,1,1,0,0,1
+Mountain Quail,Game birds,Galliformes,Odontophoridae,Oreortyx pictus,Grouse,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Mourning Dove,Doves,Columbiformes,Columbidae,Zenaida macroura,Doves,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mourning Warbler,Warblers,Passeriformes,Parulidae,Geothlypis philadelphia,Warblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1
+Muscovy Duck,Ducks,Anseriformes,Anatidae,Cairina moschata,Dabblers,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Mute Swan,Swans,Anseriformes,Anatidae,Cygnus olor,Geese,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,0,1,1,1,0,0,1,0,1,0,1,1,0,1,1,0,1,0,0,1,1,1,0,1,0,0,1,1,0,1,1,0
+Nashville Warbler,Warblers,Passeriformes,Parulidae,Oreothlypis ruficapilla,Warblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Nelson's Sparrow,Sparrows,Passeriformes,Passerellidae,Ammodramus nelsoni,Sparrows,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+Neotropic Cormorant,Cormorants,Suliformes,Phalacrocoracidae,Phalacrocorax brasilianus,Seabirds,1,0,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,1,1,1,1,0,1,0,0,1,1
+Northern Bobwhite,Game birds,Galliformes,Odontophoridae,Colinus virginianus,Grouse,1,0,0,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,0,1,0,0,1,1,1,1,0,1,1,0,1,1,1,1,1,1,0,1,1,0,1,1,1
+Northern Cardinal,Cardinals,Passeriformes,Cardinalidae,Cardinalis cardinalis,Finches,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+Northern Flicker,Woodpeckers,Piciformes,Picidae,Colaptes auratus,Woodpeckers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Northern Fulmar,Seabirds,Procellariiformes,Procellariidae,Fulmarus glacialis,Seabirds,0,1,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,0,1,1,1,0,0,0,0,0,1,1,1,0,0,0
+Northern Fulmar,Seabirds,Procellariiformes,Procellariidae,Fulmarus glacialis,Seabirds,0,1,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,0,1,1,1,0,0,0,0,0,1,1,1,0,0,0
+Northern Gannet,Seabirds,Suliformes,Sulidae,Morus bassanus,Seabirds,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,0,1,1,1,1,1,0,1,0,0,0,0,1,1,0,1,1,0,1,0,0,1,1,1,0,1,1,0,1,1,0,0,0,0
+Northern Harrier,Harriers,Accipitriformes,Accipitridae,Circus hudsonius,Raptors,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Northern Hawk Owl,Owls,Strigiformes,Strigidae,Surnia ulula,Owls,0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,1,1,1,0,0,1,0,0,1,1,0,1,0,1,1,0,1,1,0,0,0,0,0,0,1,0,1,1,1,1
+Northern Mockingbird,Mockingbirds,Passeriformes,Mimidae,Mimus polyglottos,Mimids,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Northern Parula,Warblers,Passeriformes,Parulidae,Setophaga americana,Setophaga,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Northern Pintail,Ducks,Anseriformes,Anatidae,Anas acuta,Dabblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Northern Pygmy-Owl,Owls,Strigiformes,Strigidae,Glaucidium gnoma,Owls,0,1,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1
+Northern Rough-winged Swallow,Swallows,Passeriformes,Hirundinidae,Stelgidopteryx serripennis,Swallows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Northern Saw-whet Owl,Owls,Strigiformes,Strigidae,Aegolius acadicus,Owls,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Northern Shoveler,Ducks,Anseriformes,Anatidae,Spatula clypeata,Dabblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Northern Shrike,Shrikes,Passeriformes,Laniidae,Lanius borealis,Oddballs,0,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1
+Northern Waterthrush,Warblers,Passeriformes,Parulidae,Parkesia noveboracensis,Warblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Nuttall's Woodpecker,Woodpeckers,Piciformes,Picidae,Picoides nuttallii,Woodpeckers,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Oak Titmouse,Titmice,Passeriformes,Paridae,Baeolophus inornatus,Chickadees,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Olive Sparrow,Sparrows,Passeriformes,Passerellidae,Arremonops rufivirgatus,Sparrows,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Olive Warbler,Warblers,Passeriformes,Peucedramidae,Peucedramus taeniatus,Warblers,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Olive-sided Flycatcher,Flycatchers,Passeriformes,Tyrannidae,Contopus cooperi,Flycatchers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Orange-crowned Warbler,Warblers,Passeriformes,Parulidae,Oreothlypis celata,Warblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Orchard Oriole,Orioles,Passeriformes,Icteridae,Icterus spurius,Icterids,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Osprey,Osprey,Accipitriformes,Pandionidae,Pandion haliaetus,Raptors,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ovenbird,Warblers,Passeriformes,Parulidae,Seiurus aurocapilla,Warblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Pacific Golden-Plover,Plovers,Charadriiformes,Charadriidae,Pluvialis fulva,Shorebirds,0,1,1,0,1,0,1,1,0,1,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,1,0,1,1,0,0,0,1,1,0,0,0,0,1,1,1,0,1,0,0,0
+Pacific Loon,Loons,Gaviiformes,Gaviidae,Gavia pacifica,Grebes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Pacific Wren,Wrens,Passeriformes,Troglodytidae,Troglodytes pacificus,Wrens,0,1,1,0,1,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,1,1,0,0,1,0,0,1
+Painted Bunting,Buntings,Passeriformes,Cardinalidae,Passerina ciris,Open_areas,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Painted Redstart,Warblers,Passeriformes,Parulidae,Myioborus pictus,Warblers,1,0,1,0,1,1,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,1,1,1,0,0,1,0,0,1,1,1,1,1,0,0,0,0,0,1,0,1,1,0,0,1,0,1,0
+Palm Warbler,Warblers,Passeriformes,Parulidae,Setophaga palmarum,Setophaga,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Parakeet Auklet,Auks,Charadriiformes,Alcidae,Aethia psittacula,Auks,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Parasitic Jaeger,Jaegers,Charadriiformes,Stercorariidae,Stercorarius parasiticus,Seabirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Pectoral Sandpiper,Sandpipers,Charadriiformes,Scolopacidae,Calidris melanotos,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Pelagic Cormorant,Cormorants,Suliformes,Phalacrocoracidae,Phalacrocorax pelagicus,Seabirds,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Peregrine Falcon,Falcons,Falconiformes,Falconidae,Falco peregrinus,Hawks,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Phainopepla,Phainopepla,Passeriformes,Ptiliogonatidae,Phainopepla nitens,Oddballs,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,1,0
+Philadelphia Vireo,Vireos,Passeriformes,Vireonidae,Vireo philadelphicus,Vireos,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Pied-billed Grebe,Grebes,Podicipediformes,Podicipedidae,Podilymbus podiceps,Grebes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Pigeon Guillemot,Auks,Charadriiformes,Alcidae,Cepphus columba,Auks,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Pileated Woodpecker,Woodpeckers,Piciformes,Picidae,Dryocopus pileatus,Woodpeckers,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1
+Pine Grosbeak,Finches,Passeriformes,Fringillidae,Pinicola enucleator,Finches,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Pine Siskin,Finches,Passeriformes,Fringillidae,Spinus pinus,Finches,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Pine Warbler,Warblers,Passeriformes,Parulidae,Setophaga pinus,Setophaga,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+Pink-footed Goose,Geese,Anseriformes,Anatidae,Anser brachyrhynchus,Geese,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0
+Pinyon Jay,Jays,Passeriformes,Corvidae,Gymnorhinus cyanocephalus,Corvids,0,0,1,0,1,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,1,0,1,1,0,0,0,1,0,1,1,0,0,1,0,0,1
+Piping Plover,Plovers,Charadriiformes,Charadriidae,Charadrius melodus,Shorebirds,1,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1
+Plain Chachalaca,Game birds,Galliformes,Cracidae,Ortalis vetula,Grouse,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Plumbeous Vireo,Vireos,Passeriformes,Vireonidae,Vireo plumbeus,Vireos,1,0,1,0,1,1,0,0,0,0,0,1,1,0,0,1,0,1,0,0,1,1,0,0,1,1,1,0,0,1,0,1,1,0,1,1,0,0,0,1,0,1,1,0,0,0,0,1,1
+Pomarine Jaeger,Jaegers,Charadriiformes,Stercorariidae,Stercorarius pomarinus,Seabirds,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+Prairie Falcon,Falcons,Falconiformes,Falconidae,Falco mexicanus,Hawks,1,0,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,0,0,1,0,0,1,1,1,1,1,0,0,1,1,1,1,1,1,1,0,1,1
+Prairie Warbler,Warblers,Passeriformes,Parulidae,Setophaga discolor,Setophaga,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Prothonotary Warbler,Warblers,Passeriformes,Parulidae,Protonotaria citrea,Warblers,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Purple Finch,Finches,Passeriformes,Fringillidae,Haemorhous purpureus,Finches,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Purple Gallinule,Rails,Gruiformes,Rallidae,Porphyrio martinica,Rails,1,0,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,0,1,1,1,0,1,1,1,0,1,1,1,1,1
+Purple Martin,Swallows,Passeriformes,Hirundinidae,Progne subis,Swallows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Purple Sandpiper,Sandpipers,Charadriiformes,Scolopacidae,Calidris maritima,Sandpipers,1,1,0,1,1,1,1,1,0,1,1,0,1,1,0,1,0,1,1,1,1,1,1,0,1,0,0,1,1,0,1,1,0,1,1,0,1,1,1,0,1,1,1,1,1,0,0,1,0
+Pygmy Nuthatch,Nuthatches,Passeriformes,Sittidae,Sitta pygmaea,Small_birds,0,0,1,0,1,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,1,1,1,0,0,1,0,0,1,0,1,1,0,0,0,1,0,1,1,0,0,1,0,0,1
+Pyrrhuloxia,Cardinals,Passeriformes,Cardinalidae,Cardinalis sinuatus,Finches,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,1,0
+Razorbill,Auks,Charadriiformes,Alcidae,Alca torda,Auks,1,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,1,1,0,1,1,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0
+Red Crossbill,Finches,Passeriformes,Fringillidae,Loxia curvirostra,Finches,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Red Knot,Sandpipers,Charadriiformes,Scolopacidae,Calidris canutus,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Red Phalarope,Shorebirds,Charadriiformes,Scolopacidae,Phalaropus fulicarius,Shorebirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Red-bellied Woodpecker,Woodpeckers,Piciformes,Picidae,Melanerpes carolinus,Woodpeckers,1,0,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1
+Red-breasted Merganser,Ducks,Anseriformes,Anatidae,Mergus serrator,Sea_ducks,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Red-breasted Nuthatch,Nuthatches,Passeriformes,Sittidae,Sitta canadensis,Small_birds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Red-breasted Sapsucker,Woodpeckers,Piciformes,Picidae,Sphyrapicus ruber,Woodpeckers,0,1,1,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0
+Red-cockaded Woodpecker,Woodpeckers,Piciformes,Picidae,Picoides borealis,Woodpeckers,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,1,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,1,0,1,1,0,0,1,0,0,0,0
+Red-crowned Parrot,Parrots,Psittaciformes,Psittacidae,Amazona viridigenalis,Mimids,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Red-eyed Vireo,Vireos,Passeriformes,Vireonidae,Vireo olivaceus,Vireos,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Red-faced Cormorant,Cormorants,Suliformes,Phalacrocoracidae,Urile urile,Seabirds,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Red-faced Warbler,Warblers,Passeriformes,Parulidae,Cardellina rubrifrons,Warblers,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Red-footed Booby,Seabirds,Suliformes,Sulidae,Sula sula,Seabirds,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0
+Red-headed Woodpecker,Woodpeckers,Piciformes,Picidae,Melanerpes erythrocephalus,Woodpeckers,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+Red-naped Sapsucker,Woodpeckers,Piciformes,Picidae,Sphyrapicus nuchalis,Woodpeckers,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,1,1,1,0,0,0,1,0,1,1,0,0,1,0,0,1
+Red-necked Grebe,Grebes,Podicipediformes,Podicipedidae,Podiceps grisegena,Grebes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Red-necked Phalarope,Shorebirds,Charadriiformes,Scolopacidae,Phalaropus lobatus,Shorebirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Red-shouldered Hawk,Hawks,Accipitriformes,Accipitridae,Buteo lineatus,Hawks,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Red-tailed Hawk,Hawks,Accipitriformes,Accipitridae,Buteo jamaicensis,Hawks,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Red-throated Loon,Loons,Gaviiformes,Gaviidae,Gavia stellata,Grebes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Red-winged Blackbird,Blackbirds,Passeriformes,Icteridae,Agelaius phoeniceus,Blackbirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Reddish Egret,Herons,Pelecaniformes,Ardeidae,Egretta rufescens,Herons,1,0,1,0,1,1,0,1,0,1,1,1,1,1,1,1,1,1,0,1,0,0,1,0,0,1,1,0,1,1,1,1,0,1,1,0,0,1,1,0,1,1,1,0,1,0,0,0,0
+Redhead,Ducks,Anseriformes,Anatidae,Aythya americana,Dabblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Rhinoceros Auklet,Auks,Charadriiformes,Alcidae,Cerorhinca monocerata,Auks,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Ridgway's Rail,Rails,Gruiformes,Rallidae,Rallus obsoletus,Rails,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ring-billed Gull,Gulls,Charadriiformes,Laridae,Larus delawarensis,Gulls,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ring-necked Duck,Ducks,Anseriformes,Anatidae,Aythya collaris,Dabblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ring-necked Pheasant,Game birds,Galliformes,Phasianidae,Phasianus colchicus,Grouse,0,0,1,0,1,1,1,1,0,0,0,1,1,1,1,1,0,0,0,1,1,1,0,1,1,1,1,0,1,1,1,0,1,1,1,1,1,1,0,1,0,1,1,0,0,1,1,1,1
+Rivoli's Hummingbird,Hummingbirds,Caprimulgiformes,Trochilidae,Eugenes fulgens,Hummingbirds,1,0,1,1,1,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0
+Rock Pigeon,Pigeons,Columbiformes,Columbidae,Columba livia,Doves,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Rock Ptarmigan,Game birds,Galliformes,Phasianidae,Lagopus muta,Grouse,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Rock Sandpiper,Sandpipers,Charadriiformes,Scolopacidae,Calidris ptilocnemis,Sandpipers,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Rock Wren,Wrens,Passeriformes,Troglodytidae,Salpinctes obsoletus,Wrens,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,0,0,1,1,1,1,0,1,1,0,1,1
+Rose-breasted Grosbeak,Grosbeaks,Passeriformes,Cardinalidae,Pheucticus ludovicianus,Finches,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Roseate Spoonbill,Spoonbills,Pelecaniformes,Threskiornithidae,Platalea ajaja,Cranes,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,1,0,1,0,1,0,1,1,1,0,1,0,1,1,0
+Roseate Tern,Terns,Charadriiformes,Laridae,Sterna dougallii,Terns,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,1,0,0,1,0,0,1,0,0,0,0
+Ross's Goose,Geese,Anseriformes,Anatidae,Anser rossii,Geese,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ross's Gull,Gulls,Charadriiformes,Laridae,Rhodostethia rosea,Gulls,0,1,0,0,1,1,1,1,0,0,0,1,1,1,1,0,0,0,0,1,1,1,0,1,1,1,0,1,1,0,1,0,1,1,0,1,1,0,0,1,0,0,0,0,0,1,0,1,1
+Rough-legged Hawk,Hawks,Accipitriformes,Accipitridae,Buteo lagopus,Hawks,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Royal Tern,Terns,Charadriiformes,Laridae,Thalasseus maximus,Terns,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,0,1,1,0,1,1,1,0,1,1,0,0,1,0,0,1,0
+Ruby-crowned Kinglet,Kinglets,Passeriformes,Regulidae,Regulus calendula,Small_birds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ruby-throated Hummingbird,Hummingbirds,Caprimulgiformes,Trochilidae,Archilochus colubris,Hummingbirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ruddy Duck,Ducks,Anseriformes,Anatidae,Oxyura jamaicensis,Dabblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ruddy Turnstone,Shorebirds,Charadriiformes,Scolopacidae,Arenaria interpres,Shorebirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ruffed Grouse,Game birds,Galliformes,Phasianidae,Bonasa umbellus,Grouse,1,1,0,1,1,1,1,0,0,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,0,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+Rufous Hummingbird,Hummingbirds,Caprimulgiformes,Trochilidae,Selasphorus rufus,Hummingbirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Rufous-crowned Sparrow,Sparrows,Passeriformes,Passerellidae,Aimophila ruficeps,Sparrows,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1,0
+Rufous-winged Sparrow,Sparrows,Passeriformes,Passerellidae,Peucaea carpalis,Sparrows,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Rusty Blackbird,Blackbirds,Passeriformes,Icteridae,Euphagus carolinus,Blackbirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sabine's Gull,Gulls,Charadriiformes,Laridae,Xema sabini,Gulls,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sage Thrasher,Thrashers,Passeriformes,Mimidae,Oreoscoptes montanus,Mimids,1,0,1,1,1,1,0,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,1,1,1,1,1,0,1,1,0,1,1
+Sagebrush Sparrow,Sparrows,Passeriformes,Passerellidae,Artemisiospiza nevadensis,Sparrows,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1
+Saltmarsh Sparrow,Sparrows,Passeriformes,Passerellidae,Ammodramus caudacutus,Sparrows,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0
+Sanderling,Sandpipers,Charadriiformes,Scolopacidae,Calidris alba,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sandhill Crane,Cranes,Gruiformes,Gruidae,Antigone canadensis,Cranes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sandwich Tern,Terns,Charadriiformes,Laridae,Thalasseus sandvicensis,Terns,1,1,0,0,1,1,1,1,0,1,1,0,1,0,0,0,1,1,1,1,0,0,1,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,1,0,1,1,0,0,1,0,0,0,0
+Savannah Sparrow,Sparrows,Passeriformes,Passerellidae,Passerculus sandwichensis,Sparrows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Say's Phoebe,Flycatchers,Passeriformes,Tyrannidae,Sayornis saya,Flycatchers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Scaled Quail,Game birds,Galliformes,Odontophoridae,Callipepla squamata,Grouse,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Scarlet Tanager,Cardinals,Passeriformes,Cardinalidae,Piranga olivacea,Finches,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Scissor-tailed Flycatcher,Flycatchers,Passeriformes,Tyrannidae,Tyrannus forficatus,Flycatchers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Scott's Oriole,Orioles,Passeriformes,Icteridae,Icterus parisorum,Icterids,0,0,1,1,1,1,0,0,0,1,1,1,0,0,1,1,1,1,0,0,0,1,0,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0,1,0,1,1,1,0,1,1,0,1,1
+Seaside Sparrow,Sparrows,Passeriformes,Passerellidae,Ammodramus maritimus,Sparrows,1,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,1,0,0,1,0,0,1,0,0,0,0
+Sedge Wren,Wrens,Passeriformes,Troglodytidae,Cistothorus platensis,Wrens,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1
+Semipalmated Plover,Plovers,Charadriiformes,Charadriidae,Charadrius semipalmatus,Shorebirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Semipalmated Sandpiper,Sandpipers,Charadriiformes,Scolopacidae,Calidris pusilla,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sharp-shinned Hawk,Accipiters,Accipitriformes,Accipitridae,Accipiter striatus,Raptors,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sharp-tailed Grouse,Game birds,Galliformes,Phasianidae,Tympanuchus phasianellus,Grouse,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,1,0,1,1
+Shiny Cowbird,Blackbirds,Passeriformes,Icteridae,Molothrus bonariensis,Blackbirds,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,1,1,0,0,1,0,0,0,0
+Short-billed Dowitcher,Sandpipers,Charadriiformes,Scolopacidae,Limnodromus griseus,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Short-billed Gull,Gulls,Charadriiformes,Laridae,Larus brachyrhynchus,Gulls,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,1,1,0,1,1
+Short-eared Owl,Owls,Strigiformes,Strigidae,Asio flammeus,Owls,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Short-tailed Hawk,Hawks,Accipitriformes,Accipitridae,Buteo brachyurus,Hawks,1,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+Smith's Longspur,Longspurs,Passeriformes,Calcariidae,Calcarius pictus,Open_areas,1,1,1,1,1,1,1,0,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1
+Smooth-billed Ani,Cuckoos,Cuculiformes,Cuculidae,Crotophaga ani,Oddballs,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Snail Kite,Kites,Accipitriformes,Accipitridae,Rostrhamus sociabilis,Raptors,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0
+Snow Bunting,Buntings,Passeriformes,Calcariidae,Plectrophenax nivalis,Open_areas,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Snow Goose,Geese,Anseriformes,Anatidae,Anser caerulescens,Geese,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Snowy Egret,Herons,Pelecaniformes,Ardeidae,Egretta thula,Herons,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Snowy Owl,Owls,Strigiformes,Strigidae,Bubo scandiacus,Owls,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Snowy Plover,Plovers,Charadriiformes,Charadriidae,Charadrius nivosus,Shorebirds,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1
+Solitary Sandpiper,Sandpipers,Charadriiformes,Scolopacidae,Tringa solitaria,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Song Sparrow,Sparrows,Passeriformes,Passerellidae,Melospiza melodia,Sparrows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sooty Grouse,Game birds,Galliformes,Phasianidae,Dendragapus fuliginosus,Grouse,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Sooty Shearwater,Seabirds,Procellariiformes,Procellariidae,Ardenna grisea,Seabirds,1,1,1,0,1,0,1,1,0,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,1,0,1,1,0,0,1,0,0,1,1,0,0,0
+Sora,Rails,Gruiformes,Rallidae,Porzana carolina,Rails,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Spectacled Eider,Ducks,Anseriformes,Anatidae,Somateria fischeri,Sea_ducks,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Spot-breasted Oriole,Orioles,Passeriformes,Icteridae,Icterus pectoralis,Icterids,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Spotted Owl,Owls,Strigiformes,Strigidae,Strix occidentalis,Owls,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0
+Spotted Sandpiper,Sandpipers,Charadriiformes,Scolopacidae,Actitis macularius,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Spotted Towhee,Towhees,Passeriformes,Passerellidae,Pipilo maculatus,Open_areas,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+Sprague's Pipit,Pipits,Passeriformes,Motacillidae,Anthus spragueii,Open_areas,1,0,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,1,0,1,1,1,1,1,1,1,0,0,0,1,0,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,1,1
+Spruce Grouse,Game birds,Galliformes,Phasianidae,Falcipennis canadensis,Grouse,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0
+Steller's Eider,Ducks,Anseriformes,Anatidae,Polysticta stelleri,Sea_ducks,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Steller's Jay,Jays,Passeriformes,Corvidae,Cyanocitta stelleri,Corvids,0,1,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,1,1,0,0,0,1,0,1,1,0,0,1,0,0,1
+Stilt Sandpiper,Sandpipers,Charadriiformes,Scolopacidae,Calidris himantopus,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Summer Tanager,Cardinals,Passeriformes,Cardinalidae,Piranga rubra,Finches,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Surf Scoter,Ducks,Anseriformes,Anatidae,Melanitta perspicillata,Sea_ducks,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Surfbird,Sandpipers,Charadriiformes,Scolopacidae,Calidris virgata,Sandpipers,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0
+Swainson's Hawk,Hawks,Accipitriformes,Accipitridae,Buteo swainsoni,Hawks,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1
+Swainson's Thrush,Thrushes,Passeriformes,Turdidae,Catharus ustulatus,Thrushes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Swainson's Warbler,Warblers,Passeriformes,Parulidae,Limnothlypis swainsonii,Warblers,1,0,1,1,0,1,0,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,1,1,1,1,0,1,1,0,1,1,1,0,1,1,0,1,1,0,1,1,0
+Swallow-tailed Kite,Kites,Accipitriformes,Accipitridae,Elanoides forficatus,Raptors,1,0,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0,1,1,1
+Swamp Sparrow,Sparrows,Passeriformes,Passerellidae,Melospiza georgiana,Sparrows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tennessee Warbler,Warblers,Passeriformes,Parulidae,Oreothlypis peregrina,Warblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Thick-billed Longspur,Longspurs,Passeriformes,Calcariidae,Rhynchophanes mccownii,Open_areas,0,0,1,1,1,1,0,0,0,0,1,1,0,0,0,1,0,1,0,1,1,1,0,1,1,1,1,0,0,1,0,1,1,0,1,1,0,0,0,1,1,1,1,0,0,1,0,0,1
+Thick-billed Murre,Auks,Charadriiformes,Alcidae,Uria lomvia,Auks,0,1,0,0,1,0,1,1,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,1,1,0,1,0,1,1,1,1,0,0,0,0,1,1,1,0,0,0
+Townsend's Solitaire,Thrushes,Passeriformes,Turdidae,Myadestes townsendi,Thrushes,0,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Townsend's Warbler,Warblers,Passeriformes,Parulidae,Setophaga townsendi,Setophaga,1,1,1,0,1,1,1,0,0,1,1,1,1,1,1,1,0,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1
+Tree Swallow,Swallows,Passeriformes,Hirundinidae,Tachycineta bicolor,Swallows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tricolored Blackbird,Blackbirds,Passeriformes,Icteridae,Agelaius tricolor,Blackbirds,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Tricolored Heron,Herons,Pelecaniformes,Ardeidae,Egretta tricolor,Herons,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+Tropical Kingbird,Flycatchers,Passeriformes,Tyrannidae,Tyrannus melancholicus,Flycatchers,0,1,1,1,1,1,1,1,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,0,1,1,0,1,0,0,1,1,0,1,1,0,1,0
+Trumpeter Swan,Swans,Anseriformes,Anatidae,Cygnus buccinator,Geese,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tufted Duck,Ducks,Anseriformes,Anatidae,Aythya fuligula,Dabblers,0,1,1,1,1,1,1,1,1,0,0,1,1,0,0,0,1,0,1,1,1,1,0,0,1,1,0,1,1,0,1,1,0,1,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1
+Tufted Puffin,Auks,Charadriiformes,Alcidae,Fratercula cirrhata,Auks,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Tufted Titmouse,Titmice,Passeriformes,Paridae,Baeolophus bicolor,Chickadees,1,0,0,1,0,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,1,1,0,1,1,1,1,1,1,0,1,1,0,1,1,0
+Tundra Swan,Swans,Anseriformes,Anatidae,Cygnus columbianus,Geese,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Turkey Vulture,Vultures,Cathartiformes,Cathartidae,Cathartes aura,Raptors,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Upland Sandpiper,Shorebirds,Charadriiformes,Scolopacidae,Bartramia longicauda,Shorebirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Varied Bunting,Buntings,Passeriformes,Cardinalidae,Passerina versicolor,Open_areas,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0
+Varied Thrush,Thrushes,Passeriformes,Turdidae,Ixoreus naevius,Thrushes,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Vaux's Swift,Swifts,Caprimulgiformes,Apodidae,Chaetura vauxi,Swallows,1,1,1,0,1,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1
+Veery,Thrushes,Passeriformes,Turdidae,Catharus fuscescens,Thrushes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Verdin,Verdins,Passeriformes,Remizidae,Auriparus flaviceps,Small_birds,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Vermilion Flycatcher,Flycatchers,Passeriformes,Tyrannidae,Pyrocephalus rubinus,Flycatchers,1,0,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,0,1,1,1,1,1
+Vesper Sparrow,Sparrows,Passeriformes,Passerellidae,Pooecetes gramineus,Sparrows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Violet-green Swallow,Swallows,Passeriformes,Hirundinidae,Tachycineta thalassina,Swallows,0,1,1,0,1,1,1,0,0,1,0,1,1,0,1,1,0,0,1,1,1,0,0,0,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,1,1,0,0,1
+Virginia Rail,Rails,Gruiformes,Rallidae,Rallus limicola,Rails,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Virginia's Warbler,Warblers,Passeriformes,Parulidae,Oreothlypis virginiae,Warblers,1,0,1,0,1,1,0,0,0,0,1,1,1,0,0,1,0,1,1,1,1,0,0,0,1,1,1,1,0,1,1,0,0,0,1,1,0,1,0,1,1,1,1,0,1,0,1,1,1
+Wandering Tattler,Shorebirds,Charadriiformes,Scolopacidae,Tringa incana,Shorebirds,0,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0
+Warbling Vireo,Vireos,Passeriformes,Vireonidae,Vireo gilvus,Vireos,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Western Bluebird,Thrushes,Passeriformes,Turdidae,Sialia mexicana,Thrushes,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,1,0,0,1
+Western Cattle Egret,Herons,Pelecaniformes,Ardeidae,Bubulcus ibis,Herons,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Western Flycatcher,Flycatchers,Passeriformes,Tyrannidae,Empidonax difficilis,Empids,1,1,1,0,1,1,1,1,0,1,0,1,0,0,1,1,0,1,0,1,0,0,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,1,1,0,0,1
+Western Grebe,Grebes,Podicipediformes,Podicipedidae,Aechmophorus occidentalis,Grebes,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Western Gull,Gulls,Charadriiformes,Laridae,Larus occidentalis,Gulls,0,1,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1
+Western Kingbird,Flycatchers,Passeriformes,Tyrannidae,Tyrannus verticalis,Flycatchers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Western Meadowlark,Meadowlarks,Passeriformes,Icteridae,Sturnella neglecta,Icterids,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1
+Western Sandpiper,Sandpipers,Charadriiformes,Scolopacidae,Calidris mauri,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Western Screech-Owl,Owls,Strigiformes,Strigidae,Megascops kennicottii,Owls,0,1,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,1,0,0,1
+Western Tanager,Cardinals,Passeriformes,Cardinalidae,Piranga ludoviciana,Finches,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Western Wood-Pewee,Flycatchers,Passeriformes,Tyrannidae,Contopus sordidulus,Flycatchers,0,1,1,0,1,1,0,0,0,1,0,1,0,1,1,1,0,1,1,0,0,1,1,1,1,1,1,1,0,1,0,0,1,0,1,1,1,0,0,1,0,1,1,0,1,1,0,1,1
+Whimbrel,Shorebirds,Charadriiformes,Scolopacidae,Numenius phaeopus,Shorebirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+White Ibis,Ibis,Pelecaniformes,Threskiornithidae,Eudocimus albus,Cranes,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+White-breasted Nuthatch,Nuthatches,Passeriformes,Sittidae,Sitta carolinensis,Small_birds,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+White-crowned Pigeon,Pigeons,Columbiformes,Columbidae,Patagioenas leucocephala,Doves,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+White-crowned Sparrow,Sparrows,Passeriformes,Passerellidae,Zonotrichia leucophrys,Sparrows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+White-eyed Vireo,Vireos,Passeriformes,Vireonidae,Vireo griseus,Vireos,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+White-faced Ibis,Ibis,Pelecaniformes,Threskiornithidae,Plegadis chihi,Cranes,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+White-headed Woodpecker,Woodpeckers,Piciformes,Picidae,Picoides albolarvatus,Woodpeckers,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1
+White-rumped Sandpiper,Sandpipers,Charadriiformes,Scolopacidae,Calidris fuscicollis,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+White-tailed Hawk,Hawks,Accipitriformes,Accipitridae,Geranoaetus albicaudatus,Hawks,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+White-tailed Kite,Kites,Accipitriformes,Accipitridae,Elanus leucurus,Raptors,1,0,1,1,1,1,1,0,0,1,0,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,0,0,1,0,1,1,1,0,1,1,1,1,1
+White-tailed Ptarmigan,Game birds,Galliformes,Phasianidae,Lagopus leucura,Grouse,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1
+White-throated Sparrow,Sparrows,Passeriformes,Passerellidae,Zonotrichia albicollis,Sparrows,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+White-throated Swift,Swifts,Caprimulgiformes,Apodidae,Aeronautes saxatalis,Swallows,0,0,1,1,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,1,0,1,0,0,0,1,1,1,1,0,0,1,0,0,1
+White-tipped Dove,Doves,Columbiformes,Columbidae,Leptotila verreauxi,Doves,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+White-winged Crossbill,Finches,Passeriformes,Fringillidae,Loxia leucoptera,Finches,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+White-winged Dove,Doves,Columbiformes,Columbidae,Zenaida asiatica,Doves,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+White-winged Scoter,Ducks,Anseriformes,Anatidae,Melanitta fusca,Sea_ducks,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Whooping Crane,Cranes,Gruiformes,Gruidae,Grus americana,Cranes,1,0,0,1,0,1,0,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,0,1,1,1,0,0,0,1,0,1,1,1,1,0,0,0,1,1,1,1,1,1,0,0,0,1,1
+Wild Turkey,Game birds,Galliformes,Phasianidae,Meleagris gallopavo,Grouse,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Willet,Sandpipers,Charadriiformes,Scolopacidae,Tringa semipalmata,Sandpipers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Williamson's Sapsucker,Woodpeckers,Piciformes,Picidae,Sphyrapicus thyroideus,Woodpeckers,0,0,1,0,1,1,0,0,0,0,0,1,1,0,0,1,0,1,0,0,0,1,0,0,1,1,1,0,0,1,1,0,0,0,1,1,0,0,0,0,0,1,1,0,0,1,0,0,1
+Willow Flycatcher,Flycatchers,Passeriformes,Tyrannidae,Empidonax traillii,Empids,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Willow Ptarmigan,Game birds,Galliformes,Phasianidae,Lagopus lagopus,Grouse,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Wilson's Phalarope,Shorebirds,Charadriiformes,Scolopacidae,Phalaropus tricolor,Shorebirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Wilson's Plover,Plovers,Charadriiformes,Charadriidae,Charadrius wilsonia,Shorebirds,1,0,0,1,1,0,1,1,0,1,1,0,1,1,0,0,0,1,1,1,1,1,1,1,0,0,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,0,0,1,1,0,1,0
+Wilson's Snipe,Shorebirds,Charadriiformes,Scolopacidae,Gallinago delicata,Shorebirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Wilson's Storm-Petrel,Seabirds,Procellariiformes,Oceanitidae,Oceanites oceanicus,Seabirds,1,0,0,0,1,0,1,1,0,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,1,1,1,1,0,0,1,0,1,1,1,0,0,0
+Wilson's Warbler,Warblers,Passeriformes,Parulidae,Cardellina pusilla,Warblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Winter Wren,Wrens,Passeriformes,Troglodytidae,Troglodytes hiemalis,Wrens,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Wood Duck,Ducks,Anseriformes,Anatidae,Aix sponsa,Dabblers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Wood Stork,Storks,Ciconiiformes,Ciconiidae,Mycteria americana,Cranes,1,0,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1,0,1,1,1,0,1,1,1,0,1,0,1,1,1
+Wood Thrush,Thrushes,Passeriformes,Turdidae,Hylocichla mustelina,Thrushes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+Woodhouse's Scrub-Jay,Jays,Passeriformes,Corvidae,Aphelocoma woodhouseii,Corvids,0,0,1,0,1,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,1,0,0,1
+Worm-eating Warbler,Warblers,Passeriformes,Parulidae,Helmitheros vermivorum,Warblers,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+Wrentit,Wrentits,Passeriformes,Paradoxornithidae,Chamaea fasciata,Wrens,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Yellow Rail,Rails,Gruiformes,Rallidae,Coturnicops noveboracensis,Rails,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1
+Yellow Warbler,Warblers,Passeriformes,Parulidae,Setophaga petechia,Setophaga,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Yellow-bellied Flycatcher,Flycatchers,Passeriformes,Tyrannidae,Empidonax flaviventris,Empids,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+Yellow-bellied Sapsucker,Woodpeckers,Piciformes,Picidae,Sphyrapicus varius,Woodpeckers,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Yellow-billed Cuckoo,Cuckoos,Cuculiformes,Cuculidae,Coccyzus americanus,Oddballs,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Yellow-billed Magpie,Magpies,Passeriformes,Corvidae,Pica nuttalli,Corvids,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Yellow-breasted Chat,Chats,Passeriformes,Icteriidae,Icteria virens,Mimids,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Yellow-crowned Night Heron,Herons,Pelecaniformes,Ardeidae,Nyctanassa violacea,Herons,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+Yellow-headed Blackbird,Blackbirds,Passeriformes,Icteridae,Xanthocephalus xanthocephalus,Blackbirds,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Yellow-rumped Warbler,Warblers,Passeriformes,Parulidae,Setophaga coronata,Setophaga,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Yellow-throated Vireo,Vireos,Passeriformes,Vireonidae,Vireo flavifrons,Vireos,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Yellow-throated Warbler,Warblers,Passeriformes,Parulidae,Setophaga dominica,Setophaga,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Zone-tailed Hawk,Hawks,Accipitriformes,Accipitridae,Buteo albonotatus,Hawks,0,0,1,0,1,1,1,1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,1,0,0,0,1,1,0,1,0,0,0,1,1,0,1,1,0,0,0
