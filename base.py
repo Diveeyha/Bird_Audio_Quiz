@@ -6,9 +6,6 @@ from birds.audio import get_audio
 from birds.image import get_image
 from birds.utils import clean_bird_name
 
-#export STREAMLIT_SERVER_PORT=80
-#export STREAMLIT_SERVER_COOKIE_SECRET=dontforgottochangeme
-
 
 def initialize_session_state():
     if 'question_number' not in st.session_state:
@@ -21,14 +18,14 @@ def initialize_session_state():
         st.session_state.previous_answer = ""
     if 'correct_answer' not in st.session_state:
         st.session_state.correct_answer = ""
-    if 'multi_group' not in st.session_state:
-        st.session_state.multi_group = []
-    if 'multi_order' not in st.session_state:
-        st.session_state.multi_order = []
-    if 'multi_family' not in st.session_state:
-        st.session_state.multi_family = []
-    if 'multi_species' not in st.session_state:
-        st.session_state.multi_species = []
+    if 'multi_Group' not in st.session_state:
+        st.session_state.multi_Group = []
+    if 'multi_Order' not in st.session_state:
+        st.session_state.multi_Order = []
+    if 'multi_Family' not in st.session_state:
+        st.session_state.multi_Family = []
+    if 'multi_Name' not in st.session_state:
+        st.session_state.multi_Name = []
     if 'answered_correctly' not in st.session_state:
         st.session_state.answered_correctly = False
 
@@ -65,24 +62,27 @@ def filter_selections(bird_csv, user_input):
     test_err = ('''Quiz will automatically load when minimum requirements are met.\n
                  Please make sure that more than one species is included in the filter.''')
 
-    lookup_dict = {'group': get_birds_by_group, 'order': get_birds_by_order,
-                   'family': get_birds_by_family, 'species': get_birds_by_taxonomic_name}
-    key_dict = {'multi_group': st.session_state.multi_group, 'multi_order': st.session_state.multi_order,
-                'multi_family': st.session_state.multi_family, 'multi_species': st.session_state.multi_species}
+    lookup_dict = {'Group': get_birds_by_group, 'Order': get_birds_by_order,
+                   'Family': get_birds_by_family, 'Name': get_birds_by_taxonomic_name}
+    key_dict = {'multi_Group': st.session_state.multi_Group, 'multi_Order': st.session_state.multi_Order,
+                'multi_Family': st.session_state.multi_Family, 'multi_Name': st.session_state.multi_Name}
 
-    user_input_lower = user_input.lower()
-    key_var = "multi_" + user_input_lower
+    if user_input == 'Species':
+        user_input = 'Name'
+    key_var = "multi_" + user_input
 
-    selections = bird_csv[user_input_lower].unique()
-    selections = [names.lower() for names in selections]
+    selections = bird_csv[user_input].unique()
+    selections = [names for names in selections]
     selections = sorted(selections)
 
-    get_birds_func_call = lookup_dict[user_input_lower]
+    get_birds_func_call = lookup_dict[user_input]
 
     selected = []
     removed = []
-    [selected.append(x) if len(get_birds_func_call(bird_csv, [x])) > 0 else removed.append(x) for x in key_dict[key_var]]
-    delimiter = (', ')
+    [selected.append(x)
+        if len(get_birds_func_call(bird_csv, [x])) > 0
+        else removed.append(x) for x in key_dict[key_var]]
+    delimiter = ', '
     if len(removed) == 1:
         st.toast(f"{delimiter.join(removed)} was removed because it has not been reported in "
                  f"{st.session_state.filter_state}.")
@@ -93,7 +93,7 @@ def filter_selections(bird_csv, user_input):
     st.sidebar.multiselect(user_input, list(selections), selected,  key=key_var, label_visibility="collapsed")
 
     bird_filter = get_birds_func_call(bird_csv, key_dict[key_var])
-    df_birds = bird_filter['name'].unique()
+    df_birds = bird_filter['Name'].unique()
 
     if len(key_dict[key_var]) >= 1:
         if len(bird_filter) > 1:
@@ -116,9 +116,9 @@ def data_filter(bird_csv):
 
 
 def state_filter(state):
-    bird_csv = load_csv('state_info.csv')
+    bird_csv = load_csv('bird_df.csv')
     if state != 'All':
-        bird_csv = bird_csv[bird_csv[state.lower()] == 1]
+        bird_csv = bird_csv[bird_csv[state] == 1]
     return bird_csv
 
 
@@ -131,6 +131,7 @@ def state_dropdown_options():
 
 
 def main():
+
     st.title("USA Bird Quiz")
     initialize_session_state()
 
@@ -142,7 +143,7 @@ def main():
                      key="filter_select")
 
     birds = bird_data(data_filter(state_filter(st.session_state.filter_state)))
-    options = birds['name'].sort_values()
+    options = birds['Name'].sort_values()
     st.sidebar.divider()
     st.sidebar.text(f"{len(options)} species")
     st.sidebar.dataframe(options, hide_index=True, use_container_width=True)
@@ -169,7 +170,7 @@ def main():
         if len(answer_dropdown) < 10:
             answer_options = options
         else:
-            answer_options = answer_dropdown['name']
+            answer_options = answer_dropdown['Name']
 
         col1, empty, col2, col3 = st.columns([2, 0.75, 0.75, 0.75])
         col1.selectbox("Answer:", answer_options.sort_values(), key="player_choice",
@@ -214,13 +215,18 @@ def main():
     st.caption(f"All media sourced from [The Cornell Lab of Ornithology: Macaulay Library]"
                f"(https://www.macaulaylibrary.org)")
 
-
+    # st.markdown("""<style>
+    #             p {text-align: center}
+    #             </style>""", unsafe_allow_html=True)
 # st.session_state
 
 
 # Run main
 if __name__ == "__main__":
-    st.markdown("""<style>body {text-align: center}
+    st.set_page_config(page_icon='🐦', initial_sidebar_state='expanded')
+    st.markdown("""<style>
+                body {text-align: center}
                 p {text-align: center} 
-                button {float: center} </style>""", unsafe_allow_html=True)
+                button {float: center} 
+                </style>""", unsafe_allow_html=True)
     main()
