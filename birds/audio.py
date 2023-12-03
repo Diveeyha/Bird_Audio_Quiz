@@ -9,7 +9,7 @@ def get_audio_urls(bird_name):
     page = get_page(url)
     soup = get_soup(page)
     audio = soup.findAll('div', class_='jp-jplayer player-audio')
-    audio = [content['name'] for content in audio]
+    audio = [content['Name'] for content in audio]
     return audio
 
 
@@ -27,6 +27,8 @@ def find_audio_urls(birds):
 
 @st.cache_data
 def get_audio(birds, answer):
-    audio_file = find_audio_urls(birds['name'])
+    audio_file = find_audio_urls(birds['Name'])
     url = random.choice(audio_file[answer])
     return url
+
+

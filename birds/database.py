@@ -20,23 +20,23 @@ def save_csv(filename, dataframe):
 
 @st.cache_data
 def get_birds_by_group(csv, *groups):
-    df = csv[csv['group'].isin(*groups)]
-    return df.sort_values(by=['name'])
+    df = csv[csv['Group'].isin(*groups)]
+    return df.sort_values(by=['Name'])
 
 
 @st.cache_data
 def get_birds_by_order(csv, *orders):
-    df = csv[csv['order'].isin(*orders)]
-    return df.sort_values(by=['name'])
+    df = csv[csv['Order'].isin(*orders)]
+    return df.sort_values(by=['Name'])
 
 
 @st.cache_data
 def get_birds_by_family(csv, *families):
-    df = csv[csv['family'].isin(*families)]
-    return df.sort_values(by=['name'])
+    df = csv[csv['Family'].isin(*families)]
+    return df.sort_values(by=['Name'])
 
 
 @st.cache_data
 def get_birds_by_taxonomic_name(csv, *species):
-    df = csv[csv['species'].isin(*species)]
-    return df.sort_values(by=['name'])
+    df = csv[csv['Name'].isin(*species)]
+    return df.sort_values(by=['Name'])

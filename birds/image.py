@@ -9,11 +9,13 @@ def get_image_urls(bird_name):
     url = get_bird_url(bird_name) + 'id/'
     page = get_page(url)
     soup = get_soup(page)
-    image = soup.findAll('section', 'carousel wide id-carousel')[0]
-    image = image.findAll('img')
+    print(soup)
+    image = soup.find('h2', {'class': 'sr-only'})
+    print(image)
+    image = image.find('img')
     image = [img['data-interchange'].split('[')[-1].split(',')[0] for img in image]
 
-    caption = soup.findAll('div', class_='annotation-txt')
+    caption = soup.find_all('div', {'class': 'annotation-txt'})
 
     header = []
     for text in caption:
@@ -49,7 +51,7 @@ def find_image_urls(birds):
         urls = load_urls(bird, 'image')
         text = load_urls(bird, 'caption')
         if not isinstance(urls, list):
-            urls = get_image_urls(birds[bird])
+            urls, text = get_image_urls(birds[bird])
             save_urls(bird, urls, 'image')
             save_urls(bird, text, 'caption')
         image[bird] = urls
@@ -59,8 +61,8 @@ def find_image_urls(birds):
 
 @st.cache_data
 def get_image(birds, answer):
-    image_file = find_image_urls(birds['name'])[0]
-    caption_file = find_image_urls(birds['name'])[1]
+    image_file = find_image_urls(birds['Name'])[0]
+    caption_file = find_image_urls(birds['Name'])[1]
     url = image_file[answer]
     caption = caption_file[answer]
     i = random.choice(range(len(url)))
