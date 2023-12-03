@@ -1,6 +1,7 @@
-https://s3.amazonaws.com/com-aab-media/photo/70999041-720px.jpg
-https://s3.amazonaws.com/com-aab-media/photo/32806041-720px.jpg
-https://s3.amazonaws.com/com-aab-media/videoThumbs/484228-720px.jpg
-https://s3.amazonaws.com/com-aab-media/photo/70999231-720px.jpg
-https://s3.amazonaws.com/com-aab-media/photo/70999601-720px.jpg
-https://s3.amazonaws.com/com-aab-media/photo/32806021-720px.jpg
+https://www.allaboutbirds.org/guide/assets/photo/297628611-720px.jpg
+https://www.allaboutbirds.org/guide/assets/photo/297629031-720px.jpg
+https://www.allaboutbirds.org/guide/assets/videoThumbs/484228-720px.jpg
+https://www.allaboutbirds.org/guide/assets/photo/297629151-720px.jpg
+https://www.allaboutbirds.org/guide/assets/photo/70999231-720px.jpg
+https://www.allaboutbirds.org/guide/assets/photo/70999601-720px.jpg
+https://www.allaboutbirds.org/guide/assets/photo/32806021-720px.jpg
