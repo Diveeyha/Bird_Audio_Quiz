@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+import webbrowser
 
 
 def get_page(url):
