@@ -79,7 +79,7 @@ def filter_selections(bird_csv, user_input):
 
     selected = []
     removed = []
-    newlist = [selected.append(x)
+    [selected.append(x)
         if len(get_birds_func_call(bird_csv, [x])) > 0
         else removed.append(x) for x in key_dict[key_var]]
     delimiter = ', '
@@ -172,32 +172,34 @@ def main():
         else:
             answer_options = answer_dropdown['Name']
 
-        col1, empty, col2, col3 = st.columns([2, 0.75, 0.75, 0.75])
+        col1, col2 = st.columns([2, 2.25])
         col1.selectbox("Answer:", answer_options.sort_values(), key="player_choice",
                        index=None, label_visibility="collapsed")
 
         with col2:
-            if st.form_submit_button("Submit", on_click=clear_select):
+            button_col1, button_col2 = st.columns([3, 1])
+            with button_col1:
+                if st.form_submit_button("Submit", on_click=clear_select):
 
-                if st.session_state.question_number == (len(birds) - 1):
-                    st.session_state.previous_answer = st.session_state.correct_answer
+                    if st.session_state.question_number == (len(birds) - 1):
+                        st.session_state.previous_answer = st.session_state.correct_answer
+                        reset_session_state()
+
+                    elif st.session_state.question_number < len(birds):
+                        idx = st.session_state.question_number
+                        idx = (idx + 1) % len(birds)
+                        st.session_state.question_number = idx
+                        st.session_state.previous_answer = st.session_state.correct_answer
+                        st.rerun()
+
+            with button_col2:
+                if st.form_submit_button("Reset", type="primary", on_click=clear_select):
+                    st.session_state.player_score = 0
+                    st.session_state.question_counter = 0
+                    st.session_state.previous_answer = ""
                     reset_session_state()
 
-                elif st.session_state.question_number < len(birds):
-                    idx = st.session_state.question_number
-                    idx = (idx + 1) % len(birds)
-                    st.session_state.question_number = idx
-                    st.session_state.previous_answer = st.session_state.correct_answer
-                    st.rerun()
-
-        with col3:
-            if st.form_submit_button("Reset", type="primary", on_click=clear_select):
-                st.session_state.player_score = 0
-                st.session_state.question_counter = 0
-                st.session_state.previous_answer = ""
-                reset_session_state()
-
-    print_col1, print_col2 = st.columns([1.25, 0.9])
+    print_col1, print_col2 = st.columns([1.0, 0.85])
     with print_col1:
         if st.session_state.question_counter > 0:
             formatted_name = clean_bird_name(st.session_state.previous_answer)
@@ -205,7 +207,7 @@ def main():
                 st.write(f"[{st.session_state.previous_answer}](https://www.allaboutbirds.org/guide/{formatted_name})"
                          f":green[ is correct! Great Job!] 🎉")
             else:
-                st.write(f":red[Incorrect. The correct answer is [{st.session_state.previous_answer}]"
+                st.write(f":red[Incorrect, the answer is [{st.session_state.previous_answer}]"
                          f"(https://www.allaboutbirds.org/guide/{formatted_name}).]")
     with print_col2:
         if st.session_state.question_counter > 0:
@@ -228,5 +230,19 @@ if __name__ == "__main__":
                 body {text-align: center}
                 p {text-align: center} 
                 button {float: center} 
+                .streamlit-expanderHeader {
+                    text-align: center
+                }
+                [data-testid=stVerticalBlock]{
+                    gap: 0rem
+                }
+                [data-testid=stHorizontalBlock]{
+                    gap: 0rem
+                }
+                [data-testid="column"]: nth-of-type(1) {
+                    width: calc(25% - 1rem) !important;
+                    flex: 1 1 calc(25% - 1rem) !important;
+                    min-width: calc(20% - 1rem) !important;
+                }
                 </style>""", unsafe_allow_html=True)
     main()
