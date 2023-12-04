@@ -230,7 +230,9 @@ if __name__ == "__main__":
                 body {text-align: center}
                 p {text-align: center} 
                 button {float: center} 
-                .streamlit-expanderHeader {
+                [data-testid=column] 
+                [data-testid=stExpander] .st-emotion-cache-q8sbsg.e1nzilvr5 p
+                {
                     text-align: center
                 }
                 [data-testid=stVerticalBlock]{
@@ -239,10 +241,13 @@ if __name__ == "__main__":
                 [data-testid=stHorizontalBlock]{
                     gap: 0rem
                 }
-                [data-testid="column"]: nth-of-type(1) {
+                [data-testid=stForm] [data-testid=stHorizontalBlock] 
+                [data-testid=stHorizontalBlock] [data-testid=column]
+                {
                     width: calc(25% - 1rem) !important;
                     flex: 1 1 calc(25% - 1rem) !important;
                     min-width: calc(20% - 1rem) !important;
                 }
+
                 </style>""", unsafe_allow_html=True)
     main()
