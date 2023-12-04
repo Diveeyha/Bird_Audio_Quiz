@@ -79,7 +79,7 @@ def filter_selections(bird_csv, user_input):
 
     selected = []
     removed = []
-    [selected.append(x)
+    newlist = [selected.append(x)
         if len(get_birds_func_call(bird_csv, [x])) > 0
         else removed.append(x) for x in key_dict[key_var]]
     delimiter = ', '
