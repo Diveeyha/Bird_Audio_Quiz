@@ -245,11 +245,16 @@ if __name__ == "__main__":
                     margin-top: -75px;
                 }
                 .block-container {
-                    padding-top: 1.25rem;
+                    padding-top: 1.3rem;
                     padding-bottom: 0.5rem;
                 }
                 hr:first-child {
                     margin-top: -0.1px;
                 }
                 </style>""", unsafe_allow_html=True)
+    hide_streamlit_style = """ <style>
+              #MainMenu {visibility: hidden;}
+              footer {visibility: hidden;}
+              </style>"""
+    st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
     main()
