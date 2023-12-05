@@ -1,4 +1,3 @@
-# import pandas as pd
 import streamlit as st
 from birds.database import (load_csv, get_birds_by_group, get_birds_by_taxonomic_name,
                             get_birds_by_order, get_birds_by_family)
@@ -136,6 +135,7 @@ def main():
     initialize_session_state()
 
     st.sidebar.header("Quiz Options")
+    st.sidebar.divider()
     st.sidebar.radio("Quiz", ["Audio Only", "Image & Audio"], horizontal=True, key="quiz_radio", label_visibility="collapsed")
     st.sidebar.divider()
     st.sidebar.selectbox("Filter by State:", state_dropdown_options(), key="filter_state")
@@ -206,9 +206,9 @@ def main():
             formatted_name = clean_bird_name(st.session_state.previous_answer)
             if st.session_state.answered_correctly:
                 st.write(f"[{st.session_state.previous_answer}](https://www.allaboutbirds.org/guide/{formatted_name})"
-                         f":green[ is correct! Great Job!] 🎉")
+                         f":green[ is correct!] 🎉")
             else:
-                st.write(f":red[Incorrect, the answer is [{st.session_state.previous_answer}]"
+                st.write(f":red[Incorrect, it's a [{st.session_state.previous_answer}]"
                          f"(https://www.allaboutbirds.org/guide/{formatted_name}).]")
     with print_col2:
         if st.session_state.question_counter > 0:
@@ -218,9 +218,6 @@ def main():
     st.caption(f"All media sourced from [The Cornell Lab of Ornithology: Macaulay Library]"
                f"(https://www.macaulaylibrary.org)")
 
-    # st.markdown("""<style>
-    #             p {text-align: center}
-    #             </style>""", unsafe_allow_html=True)
 # st.session_state
 
 
@@ -250,6 +247,9 @@ if __name__ == "__main__":
                 .block-container {
                     padding-top: 1.25rem;
                     padding-bottom: 0rem;
+                }
+                hr:first-child {
+                    margin-top: -0.1px;
                 }
                 </style>""", unsafe_allow_html=True)
     main()
