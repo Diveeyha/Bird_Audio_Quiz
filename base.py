@@ -135,7 +135,8 @@ def main():
     st.title("USA Bird Quiz")
     initialize_session_state()
 
-    st.sidebar.radio("Quiz", ["Audio Only", "Image & Audio"], horizontal=True, key="quiz_radio")
+    st.sidebar.header("Quiz Options")
+    st.sidebar.radio("Quiz", ["Audio Only", "Image & Audio"], horizontal=True, key="quiz_radio", label_visibility="collapsed")
     st.sidebar.divider()
     st.sidebar.selectbox("Filter by State:", state_dropdown_options(), key="filter_state")
     st.sidebar.divider()
@@ -230,11 +231,6 @@ if __name__ == "__main__":
                 body {text-align: center}
                 p {text-align: center} 
                 button {float: center} 
-                [data-testid=column] 
-                [data-testid=stExpander] .st-emotion-cache-q8sbsg.e1nzilvr5 p
-                {
-                    text-align: center
-                }
                 [data-testid=stVerticalBlock]{
                     gap: 0rem
                 }
@@ -248,6 +244,12 @@ if __name__ == "__main__":
                     flex: 1 1 calc(25% - 1rem) !important;
                     min-width: calc(20% - 1rem) !important;
                 }
-
+                [data-testid=stSidebarUserContent] {
+                    margin-top: -75px;
+                }
+                .block-container {
+                    padding-top: 1.25rem;
+                    padding-bottom: 0rem;
+                }
                 </style>""", unsafe_allow_html=True)
     main()
