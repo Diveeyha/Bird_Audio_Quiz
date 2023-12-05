@@ -246,7 +246,7 @@ if __name__ == "__main__":
                 }
                 .block-container {
                     padding-top: 1.3rem;
-                    padding-bottom: 0.5rem;
+                    padding-bottom: 5rem;
                 }
                 hr:first-child {
                     margin-top: -0.1px;
