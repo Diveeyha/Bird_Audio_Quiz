@@ -140,7 +140,7 @@ def main():
     st.sidebar.divider()
     st.sidebar.selectbox("Filter by State:", state_dropdown_options(), key="filter_state")
     st.sidebar.divider()
-    st.sidebar.radio("Filter by: ", ["All", "Group", "Order", "Family", "Species"], horizontal=True,
+    st.sidebar.radio("Filter by Selection: ", ["All", "Group", "Order", "Family", "Species"], horizontal=True,
                      key="filter_select")
 
     birds = bird_data(data_filter(state_filter(st.session_state.filter_state)))
