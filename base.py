@@ -129,8 +129,16 @@ def state_dropdown_options():
     return state_options
 
 
-def main():
+def habitat_dropdown_options():
+    habitat_options = ["All", "Forest", "Savanna", "Shrubland", "Grassland",
+                       "Wetland", "Rivers", "Ponds", "Lakes", "Rocky Cliffs",
+                       "Desert", "Estuaries", "Urban Areas",
+                       "Farmland", "Beaches", "Coastal Ocean", "Pelagic Ocean"]
+    return sorted(habitat_options)
+# = json.load('habitat_info.csv'
 
+
+def main():
     st.title("USA Bird Quiz")
     initialize_session_state()
 
@@ -139,6 +147,8 @@ def main():
     st.sidebar.radio("Quiz", ["Audio Only", "Image & Audio"], horizontal=True, key="quiz_radio", label_visibility="collapsed")
     st.sidebar.divider()
     st.sidebar.selectbox("Filter by State:", state_dropdown_options(), key="filter_state")
+    st.sidebar.divider()
+    st.sidebar.selectbox("Filter by Habitat:", habitat_dropdown_options(), key="filter_habitat")
     st.sidebar.divider()
     st.sidebar.radio("Filter by Selection: ", ["All", "Group", "Order", "Family", "Species"], horizontal=True,
                      key="filter_select")
